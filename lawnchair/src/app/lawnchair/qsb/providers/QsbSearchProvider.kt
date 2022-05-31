@@ -48,7 +48,10 @@ open class QsbSearchProvider(
             AppSearch,
             Google,
             GoogleGo,
-            DuckDuckGo
+            DuckDuckGo,
+            Presearch,
+            Wikipedia,
+            Bing
         )
 
         /**
