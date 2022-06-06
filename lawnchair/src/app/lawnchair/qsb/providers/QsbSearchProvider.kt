@@ -1,12 +1,18 @@
 package app.lawnchair.qsb.providers
 
+import android.content.ActivityNotFoundException
 import android.content.Context
 import android.content.Intent
+import android.content.pm.PackageManager
 import android.net.Uri
+import android.widget.Toast
 import androidx.annotation.DrawableRes
 import androidx.annotation.StringRes
 import app.lawnchair.qsb.QsbLayout
 import app.lawnchair.qsb.ThemingMethod
+import app.lawnchair.resolveIntent
+import app.lawnchair.util.isPackageInstalled
+import com.android.launcher3.Launcher
 import com.android.launcher3.R
 
 open class QsbSearchProvider(
@@ -18,7 +24,8 @@ open class QsbSearchProvider(
     val packageName: String,
     val action: String? = null,
     val supportVoiceIntent: Boolean = false,
-    val website: String
+    val website: String,
+    val type: QsbSearchProviderType = QsbSearchProviderType.APP_AND_WEBSITE,
 ) {
 
     fun createSearchIntent() = Intent(action)
@@ -38,6 +45,44 @@ open class QsbSearchProvider(
         Intent(Intent.ACTION_VOICE_COMMAND)
             .addFlags(INTENT_FLAGS)
             .setPackage(packageName)
+
+    /**
+     * Checks if the search provider is downloaded.
+     * Should only be used for [QsbSearchProviderType]s that are downloadable.
+     */
+    fun isDownloaded(context: Context) = context.packageManager.isPackageInstalled(packageName)
+
+    /**
+     * Launches the search provider's page on an app market.
+     * If no app market is installed, it tries to launch the provider's page on Google Play Store.
+     *
+     * Should only be used for [QsbSearchProviderType]s that are downloadable.
+     */
+    fun launchOnAppMarket(context: Context) {
+        try {
+            context.startActivity(
+                Intent(
+                    Intent.ACTION_VIEW,
+                    Uri.parse("market://details?id=$packageName")
+                )
+            )
+        } catch (e: ActivityNotFoundException) {
+            try {
+                context.startActivity(
+                    Intent(
+                        Intent.ACTION_VIEW,
+                        Uri.parse("https://play.google.com/store/apps/details?id=$packageName")
+                    )
+                )
+            } catch (e: Exception) {
+                Toast.makeText(
+                    context,
+                    context.getString(R.string.error_no_market_or_browser_installed),
+                    Toast.LENGTH_SHORT
+                ).show()
+            }
+        }
+    }
 
     companion object {
 
@@ -65,14 +110,17 @@ open class QsbSearchProvider(
          * Resolve the default search provider.
          */
         fun resolveDefault(context: Context): QsbSearchProvider {
-            val defaultProviderId = context.getString(R.string.config_default_qsb_search_provider_id)
+            val defaultProviderId =
+                context.getString(R.string.config_default_qsb_search_provider_id)
             val defaultProvider = fromId(defaultProviderId)
-            val isDefaultProviderIntentResolved = QsbLayout.resolveIntent(context, defaultProvider.createSearchIntent())
+            val isDefaultProviderIntentResolved =
+                QsbLayout.resolveIntent(context, defaultProvider.createSearchIntent())
 
             // Return the default value from config.xml if the value is valid
             if (isDefaultProviderIntentResolved) {
                 if (defaultProvider != AppSearch ||
-                    (defaultProvider == AppSearch && defaultProviderId == AppSearch.id)) {
+                    (defaultProvider == AppSearch && defaultProviderId == AppSearch.id)
+                ) {
                     return defaultProvider
                 }
             }
@@ -86,4 +134,11 @@ open class QsbSearchProvider(
         }
 
     }
+}
+
+enum class QsbSearchProviderType(val downloadable: Boolean) {
+    APP_AND_WEBSITE(downloadable = true),
+    WEBSITE(downloadable = false),
+    APP(downloadable = true),
+    LOCAL(downloadable = false)
 }
