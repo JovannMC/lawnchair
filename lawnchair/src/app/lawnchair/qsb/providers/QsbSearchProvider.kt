@@ -97,7 +97,9 @@ open class QsbSearchProvider(
             Presearch,
             Wikipedia,
             Bing,
-            Brave
+            Sesame,
+            Brave,
+            GitHub,
         )
 
         /**
