@@ -27,11 +27,7 @@
     <string name="safemode_widget_error" msgid="4863470563535682004">"Widgets im abgesicherten Modus deaktiviert"</string>
     <string name="shortcut_not_available" msgid="2536503539825726397">"Verknüpfung nicht verfügbar"</string>
     <string name="home_screen" msgid="5629429142036709174">"Startbildschirm"</string>
-<<<<<<< HEAD
-    <string name="recent_task_option_split_screen" msgid="6690461455618725183">"Splitscreen"</string>
-=======
     <string name="recent_task_option_split_screen" msgid="6690461455618725183">"Geteilter Bildschirm"</string>
->>>>>>> android-13.0.0_r1
     <string name="split_screen_position_top" msgid="1504965011158689649">"Oben teilen"</string>
     <string name="split_screen_position_left" msgid="7537793098851830883">"Links teilen"</string>
     <string name="split_screen_position_right" msgid="1569377524925193369">"Rechts teilen"</string>
@@ -56,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Geschäftlich"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Unterhaltungen"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Praktische Informationen – immer zur Hand"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Wenn du Informationen erhalten möchtest, ohne Apps zu öffnen, kannst du deinem Startbildschirm Widgets hinzufügen"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Wenn du Informationen erhalten möchtest, ohne Apps zu öffnen, kannst du deinem Startbildschirm Widgets hinzufügen"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Tippen, um die Widget-Einstellungen zu ändern"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Widget-Einstellungen ändern"</string>
@@ -73,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Benachrichtigungen"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Zum Verschieben einer Verknüpfung berühren und halten"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Doppeltippen und halten, um eine Verknüpfung zu bewegen oder benutzerdefinierte Aktionen zu nutzen."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Auf diesem Startbildschirm ist kein Platz mehr vorhanden"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Auf diesem Startbildschirm ist kein Platz mehr vorhanden"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Ablage \"Favoriten\" ist voll."</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Liste der Apps"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Suchergebnisse"</string>
@@ -180,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Geschäftliche Apps sind deaktiviert. Sie können dir keine Benachrichtigungen senden, deinen Akku nicht nutzen und nicht auf deinen Standort zugreifen."</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Geschäftliche Apps sind gekennzeichnet und für deinen IT-Administrator sichtbar"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Geschäftliche Apps deaktivieren"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Geschäftliche Apps aktivieren"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filter"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Geschäftliche Apps pausieren"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Geschäftliche Apps aktivieren"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filter"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Auf dem Smartphone suchen"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Auf dem Tablet suchen"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Fehler: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

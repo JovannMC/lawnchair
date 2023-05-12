@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Jobb"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Samtaler"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Lett tilgjengelig nyttig informasjon"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"For å se informasjon uten å åpne apper kan du legge til moduler på startskjermen"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"For å se informasjon uten å åpne apper kan du legge til moduler på startskjermen"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Trykk for å endre modulinnstillinger"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Greit"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Endre modulinnstillinger"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Varsler"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Trykk og hold for å flytte en snarvei."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Dobbelttrykk og hold for å flytte en snarvei eller bruke tilpassede handlinger."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Ingen ledig plass på denne startskjermen"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Ingen ledig plass på denne startskjermen"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Favoritter-skuffen er full"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"App-liste"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Søkeresultater"</string>
@@ -169,27 +161,17 @@
     <string name="all_apps_personal_tab" msgid="4190252696685155002">"Personlig"</string>
     <string name="all_apps_work_tab" msgid="4884822796154055118">"Jobb"</string>
     <string name="work_profile_toggle_label" msgid="3081029915775481146">"Jobbprofil"</string>
-<<<<<<< HEAD
-    <string name="work_profile_edu_work_apps" msgid="7895468576497746520">"Jobbapper er merket og synlige for IT-administratoren din"</string>
-=======
     <string name="work_profile_edu_work_apps" msgid="7895468576497746520">"Jobbapper er merket og synlige for IT-administratoren"</string>
->>>>>>> android-13.0.0_r1
     <string name="work_profile_edu_accept" msgid="6069788082535149071">"Greit"</string>
     <string name="work_apps_paused_title" msgid="3040901117349444598">"Jobbapper er satt på pause"</string>
     <string name="work_apps_paused_body" msgid="261634750995824906">"Jobbapper kan ikke sende deg varsler, bruke batteriet eller få tilgang til posisjonen din"</string>
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Jobbapper er av. De kan ikke sende deg varsler, bruke batteriet eller få tilgang til posisjonen din"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Jobbapper er merket og synlige for IT-administratoren din"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Greit"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Slå av jobbapper"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Slå på jobbapper"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filter"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Sett jobbapper på pause"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Slå på jobbapper"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filter"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Søk på telefonen"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Søk på nettbrettet"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Mislyktes: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

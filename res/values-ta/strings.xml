@@ -65,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"அறிவிப்புகள்"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"ஷார்ட்கட்டை நகர்த்தத் தொட்டுப் பிடிக்கவும்."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"ஷார்ட்கட்டை நகர்த்த இருமுறை தட்டிப் பிடிக்கவும் அல்லது பிரத்தியேகச் செயல்களைப் பயன்படுத்தவும்."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"இந்த முகப்புத் திரையில் இடமில்லை"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"இந்த முகப்புத் திரையில் இடமில்லை"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"பிடித்தவை ட்ரேயில் இடமில்லை"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"ஆப்ஸின் பட்டியல்"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"தேடல் முடிவுகள்"</string>
@@ -172,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"பணி ஆப்ஸ் முடக்கப்பட்டுள்ளன. அவற்றால் உங்களுக்கு அறிவிப்புகளை அனுப்பவோ பேட்டரியைப் பயன்படுத்தவோ உங்கள் இருப்பிடத்தை அணுகவோ முடியாது"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"பணி ஆப்ஸ் பேட்ஜ் குறியிடப்பட்டுள்ளன. மேலும் உங்கள் IT நிர்வாகியால் அவற்றைப் பார்க்க முடியும்"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"சரி"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"பணி ஆப்ஸை முடக்கு"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"பணி ஆப்ஸை இயக்கு"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"வடிப்பான்"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"பணி ஆப்ஸை இடைநிறுத்து"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"பணி ஆப்ஸை இயக்கு"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"வடிப்பான்"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"உங்கள் மொபைலில் தேடுதல்"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"உங்கள் டேப்லெட்டில் தேடுதல்"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"தோல்வி: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

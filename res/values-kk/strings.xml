@@ -51,13 +51,8 @@
     <string name="widgets_full_sheet_personal_tab" msgid="2743540105607120182">"Жеке виджеттер"</string>
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Жұмыс виджеттері"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Әңгімелер"</string>
-<<<<<<< HEAD
-    <string name="widget_education_header" msgid="4874760613775913787">"Саусақпен түртсеңіз болғаны – пайдалы ақпарат көз алдыңызда"</string>
-    <string name="widget_education_content" msgid="745542879510751525">"Қолданбаларды ашпай-ақ ақпарат алу үшін негізгі экранға тиісті виджеттерді қосыңыз."</string>
-=======
     <string name="widget_education_header" msgid="4874760613775913787">"Саусақпен түртсеңіз болғаны – пайдалы ақпарат көз алдыңызда"</string>
     <string name="widget_education_content" msgid="1731667670753497052">"Қолданбаларды ашпай-ақ ақпарат алу үшін негізгі экранға тиісті виджеттерді қосыңыз."</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Виджет параметрлерін өзгерту үшін түртіңіз."</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Түсінікті"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Виджет параметрлерін өзгерту"</string>
@@ -70,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Хабарландырулар"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Таңбашаны жылжыту үшін басып тұрыңыз."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Таңбашаны жылжыту үшін екі рет түртіңіз де, ұстап тұрыңыз немесе арнаулы әрекеттерді пайдаланыңыз."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Негізгі экранда бос орын қалмады."</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Негізгі экранда бос орын қалмады."</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Қалаулылар науасында орын қалмады"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Қолданбалар тізімі"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Іздеу нәтижелері"</string>
@@ -177,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Жұмыс қолданбалары өшірулі. Олар сізге хабарландырулар жібере, батареяңызды немесе локацияңызды пайдалана алмайды."</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Жұмыс қолданбаларының танымбелгілері бар және олар әкімшіңізге көрінеді."</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Түсінікті"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Жұмыс қолданбаларын өшіру"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Жұмыс қолданбаларын қосу"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Сүзгі"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Жұмыс қолданбаларын тоқтата тұру"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Жұмыс қолданбаларын қосу"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Сүзгі"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Телефоннан іздеу"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Планшеттен іздеу"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Қате шықты: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

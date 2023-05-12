@@ -65,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"सूचनाएं"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"किसी शॉर्टकट को एक से दूसरी जगह ले जाने के लिए, उसे दबाकर रखें."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"किसी शॉर्टकट को एक से दूसरी जगह ले जाने के लिए, उस पर दो बार टैप करके दबाकर रखें या पसंद के मुताबिक कार्रवाइयां इस्तेमाल करें."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"इस होम स्क्रीन पर जगह खाली नहीं है"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"इस होम स्क्रीन पर जगह खाली नहीं है"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"पसंदीदा ट्रे में और जगह नहीं है"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"ऐप्लिकेशन सूची"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"खोज के नतीजे"</string>
@@ -172,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"ऑफ़िस के काम से जुड़े ऐप्लिकेशन बंद हैं. ये ऐप्लिकेशन, आपको सूचनाएं नहीं भेज सकते. साथ ही, आपकी बैटरी का इस्तेमाल या आपकी जगह की जानकारी को ऐक्सेस भी नहीं कर सकते"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"ऑफ़िस के काम से जुड़े ऐप्लिकेशन बैज किए गए हैं और आईटी एडमिन को दिख रहे हैं"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"ठीक है"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"ऑफ़िस के काम से जुड़े ऐप्लिकेशन बंद करें"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"ऑफ़िस के काम से जुड़े ऐप्लिकेशन चालू करें"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"फ़िल्टर"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"ऑफ़िस के काम से जुड़े ऐप्लिकेशन रोकें"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"ऑफ़िस के काम से जुड़े ऐप्लिकेशन चालू करें"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"फ़िल्टर"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"अपने फ़ोन में खोजें"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"अपने टैबलेट में खोजें"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"पूरा नहीं हुआ: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

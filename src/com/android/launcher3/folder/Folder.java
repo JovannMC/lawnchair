@@ -58,9 +58,9 @@ import android.view.animation.AnimationUtils;
 import android.view.inputmethod.EditorInfo;
 import android.widget.TextView;
 
-import androidx.annotation.ColorInt;
 import androidx.core.graphics.ColorUtils;
 import androidx.annotation.IntDef;
+import androidx.annotation.ColorInt;
 import androidx.annotation.Nullable;
 import androidx.core.content.res.ResourcesCompat;
 

@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Kazini"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Mazungumzo"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Maelezo muhimu, popote ulipo"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Ili upate maelezo bila kufungua programu, unaweza kuweka wijeti kwenye Skrini yako ya kwanza"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Ili upate maelezo bila kufungua programu, unaweza kuweka wijeti kwenye skrini yako ya kwanza"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Gusa ili ubadilishe mipangilio ya wijeti"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Nimeelewa"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Badilisha mipangilio ya wijeti"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Arifa"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Gusa na ushikilie ili usogeze njia ya mkato."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Gusa mara mbili na ushikilie ili usogeze njia ya mkato au utumie vitendo maalum."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Hakuna nafasi kwenye Skrini hii ya kwanza"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Hakuna nafasi kwenye skrini hii ya kwanza"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Hakuna nafasi zaidi katika treya ya Vipendeleo"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Orodha ya programu"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Matokeo ya utafutaji"</string>
@@ -110,11 +102,7 @@
     <string name="folder_name_format_exact" msgid="8626242716117004803">"Folda: <xliff:g id="NAME">%1$s</xliff:g>, vipengee <xliff:g id="SIZE">%2$d</xliff:g>"</string>
     <string name="folder_name_format_overflow" msgid="4270108890534995199">"Folda: <xliff:g id="NAME">%1$s</xliff:g>, vipengee <xliff:g id="SIZE">%2$d</xliff:g> au zaidi"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"Mandhari"</string>
-<<<<<<< HEAD
-    <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"Mandhari na muundo"</string>
-=======
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"Mandhari na mtindo"</string>
->>>>>>> android-13.0.0_r1
     <string name="settings_button_text" msgid="8873672322605444408">"Mipangilio ya mwanzo"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Imezimwa na msimamizi wako"</string>
     <string name="allow_rotation_title" msgid="7222049633713050106">"Ruhusu kipengele cha kuzungusha skrini ya kwanza"</string>
@@ -180,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Programu za kazini zimezimwa. Programu zako za kazini haziwezi kukutumia arifa, kutumia betri yako au kufikia maelezo ya mahali ulipo"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Programu za kazini zina beji na msimamizi wako wa TEHAMA anaziona"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Nimeelewa"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Zima programu za kazini"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Washa programu za kazini"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Kichujio"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Simamisha programu za kazini"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Washa programu za kazini"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Kichujio"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Tafuta kwenye simu yako"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Tafuta kwenye kompyuta kibao yako"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Hitilafu: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

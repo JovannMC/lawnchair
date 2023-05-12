@@ -65,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"నోటిఫికేషన్‌లు"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"షార్ట్‌కట్‌ను తరలించడానికి తాకి &amp; నొక్కి ఉంచు."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"షార్ట్‌కట్‌ను తరలించడానికి లేదా అనుకూల చర్యలను ఉపయోగించడానికి రెండుసార్లు నొక్కండి &amp; హోల్డ్ చేయండి."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"ఈ మొదటి స్క్రీన్‌లో స్థలం లేదు"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"ఈ మొదటి స్క్రీన్‌లో స్థలం లేదు"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"ఇష్టమైనవి ట్రేలో ఖాళీ లేదు"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"యాప్‌ల లిస్ట్‌"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"సెర్చ్ ఫలితాలు"</string>
@@ -109,11 +105,7 @@
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"వాల్‌పేపర్ &amp; స్టయిల్"</string>
     <string name="settings_button_text" msgid="8873672322605444408">"మొదటి స్క్రీన్ సెట్టింగ్‌లు"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"మీ నిర్వాహకులు నిలిపివేసారు"</string>
-<<<<<<< HEAD
-    <string name="allow_rotation_title" msgid="7728578836261442095">"మొదటి స్క్రీన్ రొటేషన్‌ను అనుమతించండి"</string>
-=======
     <string name="allow_rotation_title" msgid="7222049633713050106">"మొదటి స్క్రీన్ రొటేషన్‌ను అనుమతించండి"</string>
->>>>>>> android-13.0.0_r1
     <string name="allow_rotation_desc" msgid="8662546029078692509">"ఫోన్‌‌ను తిప్పినప్పుడు"</string>
     <string name="notification_dots_title" msgid="9062440428204120317">"నోటిఫికేషన్ డాట్‌లు"</string>
     <string name="notification_dots_desc_on" msgid="1679848116452218908">"ఆన్"</string>
@@ -122,12 +114,8 @@
     <string name="msg_missing_notification_access" msgid="281113995110910548">"నోటిఫికేషన్ డాట్‌లను చూపించడానికి <xliff:g id="NAME">%1$s</xliff:g>కు యాప్ నోటిఫికేషన్‌లను ఆన్ చేయండి"</string>
     <string name="title_change_settings" msgid="1376365968844349552">"సెట్టింగ్‌లను మార్చు"</string>
     <string name="notification_dots_service_title" msgid="4284221181793592871">"నోటిఫికేషన్ డాట్‌లను చూపు"</string>
-<<<<<<< HEAD
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"యాప్ చిహ్నాలను మొదటి స్క్రీన్‌కు జోడించు"</string>
-=======
     <string name="developer_options_title" msgid="700788437593726194">"డెవలపర్ ఆప్షన్‌లు"</string>
     <string name="auto_add_shortcuts_label" msgid="4926805029653694105">"యాప్ చిహ్నాలను మొదటి స్క్రీన్‌కు జోడించండి"</string>
->>>>>>> android-13.0.0_r1
     <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"కొత్త యాప్‌ల కోసం"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"తెలియదు"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"తీసివేయి"</string>
@@ -180,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"వర్క్ యాప్‌లు ఆఫ్‌లో ఉన్నాయి. మీకు నోటిఫికేషన్‌లు పంపడం, మీ బ్యాటరీని ఉపయోగించడం, లేదా మీ లొకేషన్‌ను యాక్సెస్ చేయడం మీ వర్క్ యాప్‌లకు సాధ్యపడదు"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"వర్క్ యాప్‌లకు బ్యాడ్జ్ ఉంటుంది, అవి మీ IT అడ్మిన్‌కు కనిపిస్తాయి"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"అర్థమైంది"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"వర్క్ యాప్‌లను ఆఫ్ చేయండి"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"వర్క్ యాప్‌లను ఆన్ చేయి"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"ఫిల్టర్ చేయి"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"వర్క్ యాప్‌లను పాజ్ చేయి"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"వర్క్ యాప్‌లను ఆన్ చేయి"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"ఫిల్టర్ చేయి"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"మీ ఫోన్‌లో సెర్చ్ చేయండి"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"మీ టాబ్లెట్‌లో సెర్చ్ చేయండి"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"విఫలమైంది: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

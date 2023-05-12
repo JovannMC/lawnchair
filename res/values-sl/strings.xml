@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Služba"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Pogovori"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Koristne informacije na dosegu prstov"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Če si želite podatke ogledati brez odpiranja aplikacij, lahko na začetni zaslon dodate pripomočke."</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Če si želite podatke ogledati brez odpiranja aplikacij, lahko na začetni zaslon dodate pripomočke."</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Dotaknite se, če želite spremeniti nastavitve pripomočka."</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Razumem"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Spreminjanje nastavitev pripomočka"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Obvestila"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Pridržite bližnjico, da jo premaknete."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Dvakrat se dotaknite bližnjice in jo pridržite, da jo premaknete, ali pa uporabite dejanja po meri."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Na tem začetnem zaslonu ni prostora."</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Na tem začetnem zaslonu ni prostora."</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"V vrstici za priljubljene ni več prostora"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Seznam aplikacij"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Rezultati iskanja"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Delovne aplikacije so izklopljene in ne smejo pošiljati obvestil, porabljati energije baterije ali dostopati do lokacije."</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Delovne aplikacije so označene z značko in vidne skrbniku za IT."</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"V redu"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Izklopi delovne aplikacije"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Vklopi delovne aplikacije"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtriranje"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Začasno zaustavi delovne aplikacije"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Vklopi delovne aplikacije"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtriranje"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Iskanje po telefonu"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Iskanje po tabličnem računalniku"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Ni uspelo: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

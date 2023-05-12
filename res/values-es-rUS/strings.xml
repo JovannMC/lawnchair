@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Trabajo"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Conversaciones"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Información útil a tu alcance"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Para recibir información de apps sin abrirlas, puedes agregar widgets a la pantalla principal"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Para recibir información de apps sin abrirlas, puedes agregar widgets a la pantalla principal"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Presiona para cambiar la configuración del widget"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Entendido"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Cambiar la configuración del widget"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Notificaciones"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Mantén presionado para mover un acceso directo."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Presiona dos veces y mantén presionado para mover un acceso directo o usar acciones personalizadas."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"No hay más espacio en esta pantalla principal"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"No hay más espacio en esta pantalla principal"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"La bandeja de favoritos está llena."</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Lista de apps"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Resultados de la búsqueda"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Las apps de trabajo están desactivadas y, por ende, no pueden enviarte notificaciones, usar la batería ni acceder a tu ubicación"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Las apps de trabajo tienen una insignia y el administrador de TI las puede ver"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Entendido"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Desactivar las apps de trabajo"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Activar las apps de trabajo"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtro"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Detener apps de trabajo"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Activar las apps de trabajo"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtro"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Busca tu teléfono"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Busca tu tablet"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Error: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

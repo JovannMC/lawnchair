@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Työ"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Keskustelut"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Hyödyllisiä tietoja käden ulottuvilla"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Jos haluat nähdä tietoja avaamatta sovelluksia, voit lisätä aloitusnäytölle widgetejä"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Jos haluat nähdä tietoja avaamatta sovelluksia, voit lisätä aloitusnäytölle widgetejä"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Napauta, niin voit muuttaa widgetin asetuksia"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Muuta widgetin asetuksia"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Ilmoitukset"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Kosketa pitkään, niin voit siirtää pikakuvaketta."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Kaksoisnapauta ja paina pitkään, niin voit siirtää pikakuvaketta tai käyttää muokattuja toimintoja."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Tällä aloitusnäytöllä ei ole tilaa"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Aloitusnäytöllä ei ole tilaa"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Suosikit-valikossa ei ole enää tilaa"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Sovellusluettelo"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Hakutulokset"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Työsovellukset ovat pois päältä. Ne eivät voi lähettää sinulle ilmoituksia eivätkä käyttää akkuasi tai sijaintiasi"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Työsovellukset on merkitty sellaisiksi ja näkyvät IT-järjestelmänvalvojille"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Laita työsovellukset pois päältä"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Laita työsovellukset päälle"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Suodatin"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Keskeytä työsovellusten käyttö"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Laita työsovellukset päälle"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Suodatin"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Hae puhelimesta"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Hae tabletilta"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Epäonnistui: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

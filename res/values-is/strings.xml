@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Vinna"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Samtöl"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Gagnlegar upplýsingar innan seilingar"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Þú getur bætt við græjum á heimaskjáinn til að fá upplýsingar án þess að opna forrit"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Þú getur bætt við græjum á heimaskjáinn til að fá upplýsingar án þess að opna forrit"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Ýttu til að breyta græjustillingum"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Ég skil"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Breyta græjustillingum"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Tilkynningar"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Haltu fingri á flýtileið til að færa hana."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Ýttu tvisvar og haltu fingri á flýtileið til að færa hana eða notaðu sérsniðnar aðgerðir."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Ekkert pláss á þessum heimaskjá"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Ekkert pláss á þessum heimaskjá"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Ekki meira pláss í bakka fyrir uppáhald"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Forritalisti"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Leitarniðurstöður"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Slökkt er á vinnuforritum. Vinnuforrit geta ekki sent þér tilkynningar, notað rafhlöðuorku eða fengið aðgang að staðsetningu þinni"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Vinnuforrit eru merkt og kerfisstjórinn getur séð þau"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Ég skil"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Slökkva á vinnuforritum"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Kveikja á vinnuforritum"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Sía"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Setja vinnuforrit í bið"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Kveikja á vinnuforritum"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Sía"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Leita í símanum"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Leita í spjaldtölvunni"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Mistókst: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

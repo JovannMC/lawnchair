@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"İş"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Görüşmeler"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Faydalı bilgiler parmaklarınızın ucunda"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Uygulamaları açmadan bilgi almak için Ana ekranınıza widget\'lar ekleyebilirsiniz"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Uygulama açmadan bilgi almak için ana ekranınıza widget ekleyebilirsiniz"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Widget ayarlarını değiştirmek için dokunun"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Anladım"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Widget ayarlarını değiştir"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Bildirimler"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Kısayolu taşımak için dokunup basılı tutun."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Kısayolu taşımak veya özel işlemleri kullanmak için iki kez dokunup basılı tutun."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Bu Ana ekranda yer yok"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Bu ana ekranda yer yok"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Favoriler tepsisinde başka yer kalmadı"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Uygulamalar listesi"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Arama sonuçları"</string>
@@ -122,12 +114,8 @@
     <string name="msg_missing_notification_access" msgid="281113995110910548">"Bildirim Noktaları\'nı göstermek için <xliff:g id="NAME">%1$s</xliff:g> uygulamasının bildirimlerini açın"</string>
     <string name="title_change_settings" msgid="1376365968844349552">"Ayarları değiştir"</string>
     <string name="notification_dots_service_title" msgid="4284221181793592871">"Bildirim noktalarını göster"</string>
-<<<<<<< HEAD
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"Uygulama simgelerini Ana ekrana ekle"</string>
-=======
     <string name="developer_options_title" msgid="700788437593726194">"Geliştirici Seçenekleri"</string>
     <string name="auto_add_shortcuts_label" msgid="4926805029653694105">"Uygulama simgelerini ana ekrana ekle"</string>
->>>>>>> android-13.0.0_r1
     <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"Yeni uygulamalar için"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"Bilinmiyor"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"Kaldır"</string>
@@ -180,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"İş uygulamaları kapalı. İş uygulamalarınız size bildirim gönderemez, pilinizi kullanamaz veya konum bilginize erişemez"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"İş uygulamaları rozetle işaretlenmiş olup BT yöneticisi tarafından görülebilir"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Anladım"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"İş uygulamalarını kapat"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"İş uygulamalarını aç"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtre"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"İş uygulamalarını duraklat"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"İş uygulamalarını aç"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtre"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"telefonunuzda arama yapmak"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Tabletinizde arama yapma"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Başarısız: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

@@ -65,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"ਸੂਚਨਾਵਾਂ"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"ਕਿਸੇ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਲਿਜਾਉਣ ਲਈ ਸਪੱਰਸ਼ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ।"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"ਕਿਸੇ ਸ਼ਾਰਟਕੱਟ ਨੂੰ ਲਿਜਾਉਣ ਲਈ ਡਬਲ ਟੈਪ ਕਰਕੇ ਦਬਾਈ ਰੱਖੋ ਜਾਂ ਵਿਉਂਤੀਆਂ ਕਾਰਵਾਈਆਂ ਵਰਤੋ।"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"ਇਸ ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਜਗ੍ਹਾ ਨਹੀਂ ਬਚੀ"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"ਇਸ ਹੋਮ ਸਕ੍ਰੀਨ \'ਤੇ ਜਗ੍ਹਾ ਨਹੀਂ ਬਚੀ"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"ਮਨਪਸੰਦ ਟ੍ਰੇ ਵਿੱਚ ਹੋਰ ਖਾਲੀ ਸਥਾਨ ਨਹੀਂ।"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"ਐਪ ਸੂਚੀ"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"ਖੋਜ ਨਤੀਜੇ"</string>
@@ -172,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਬੰਦ ਹਨ। ਤੁਹਾਡੀਆਂ ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਤੁਹਾਨੂੰ ਸੂਚਨਾਵਾਂ ਨਹੀਂ ਭੇਜ ਸਕਦੀਆਂ, ਤੁਹਾਡੀ ਬੈਟਰੀ ਨਹੀਂ ਵਰਤ ਸਕਦੀਆਂ ਜਾਂ ਤੁਹਾਡੇ ਟਿਕਾਣੇ ਤੱਕ ਪਹੁੰਚ ਨਹੀਂ ਕਰ ਸਕਦੀਆਂ"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਨੂੰ ਬੈਜ ਕੀਤਾ ਜਾਂਦਾ ਹੈ ਅਤੇ ਇਹ ਤੁਹਾਡੇ ਆਈ.ਟੀ. ਪ੍ਰਸ਼ਾਸਕ ਨੂੰ ਦਿਸਣਗੀਆਂ"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"ਸਮਝ ਲਿਆ"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਬੰਦ ਕਰੋ"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਚਾਲੂ ਕਰੋ"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"ਫਿਲਟਰ"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"ਕੰਮ ਸੰਬੰਧੀ ਐਪ ਰੋਕੋ"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"ਕੰਮ ਸੰਬੰਧੀ ਐਪਾਂ ਚਾਲੂ ਕਰੋ"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"ਫਿਲਟਰ"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"ਆਪਣਾ ਫ਼ੋਨ ਖੋਜੋ"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"ਆਪਣਾ ਟੈਬਲੈੱਟ ਖੋਜੋ"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"ਇਹ ਕਾਰਵਾਈ ਅਸਫਲ ਹੋਈ: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"仕事用"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"会話"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"ウィジェットで情報を得る"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"ホーム画面にウィジェットを追加すると、アプリを開かずに情報を入手できます"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"ホーム画面にウィジェットを追加すると、アプリを開かずに情報を入手できます"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"タップしてウィジェットの設定を変更する"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"ウィジェットの設定を変更します"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"通知"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"長押ししてショートカットを移動してください。"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"ショートカットをダブルタップして長押ししながら移動するか、カスタム操作を使用してください。"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"このホーム画面には空きスペースがありません"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"このホーム画面には空きスペースがありません"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"お気に入りトレイに空きスペースがありません"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"アプリのリスト"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"検索結果"</string>
@@ -113,11 +105,7 @@
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"壁紙とスタイル"</string>
     <string name="settings_button_text" msgid="8873672322605444408">"ホームの設定"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"管理者により無効にされています"</string>
-<<<<<<< HEAD
-    <string name="allow_rotation_title" msgid="7728578836261442095">"ホーム画面の回転を許可"</string>
-=======
     <string name="allow_rotation_title" msgid="7222049633713050106">"ホーム画面の回転を許可"</string>
->>>>>>> android-13.0.0_r1
     <string name="allow_rotation_desc" msgid="8662546029078692509">"スマートフォンの向きに合わせます"</string>
     <string name="notification_dots_title" msgid="9062440428204120317">"通知ドット"</string>
     <string name="notification_dots_desc_on" msgid="1679848116452218908">"ON"</string>
@@ -126,12 +114,8 @@
     <string name="msg_missing_notification_access" msgid="281113995110910548">"通知ドットを表示するには、「<xliff:g id="NAME">%1$s</xliff:g>」のアプリ通知を ON にしてください"</string>
     <string name="title_change_settings" msgid="1376365968844349552">"設定を変更"</string>
     <string name="notification_dots_service_title" msgid="4284221181793592871">"通知ドットの表示"</string>
-<<<<<<< HEAD
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"ホーム画面にアプリのアイコンを追加"</string>
-=======
     <string name="developer_options_title" msgid="700788437593726194">"開発者向けオプション"</string>
     <string name="auto_add_shortcuts_label" msgid="4926805029653694105">"ホーム画面にアプリのアイコンを追加"</string>
->>>>>>> android-13.0.0_r1
     <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"新しいアプリをダウンロードしたときに自動で追加します"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"不明"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"削除"</string>
@@ -184,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"仕事用アプリは OFF になっています。仕事用アプリでは、通知の送信、バッテリーの使用、位置情報の取得が無効になっています"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"仕事用アプリはバッジが付き、IT 管理者に公開されます"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"仕事用アプリを OFF にする"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"仕事用アプリを ON にする"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"フィルタ"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"仕事用アプリを一時停止"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"仕事用アプリを ON にする"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"フィルタ"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"スマートフォンの検索"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"タブレットを探す"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"失敗: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

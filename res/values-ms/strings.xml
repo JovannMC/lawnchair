@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Tempat kerja"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Perbualan"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Maklumat berguna di hujung jari anda"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Untuk mendapatkan maklumat tanpa membuka apl, anda boleh menambahkan widget pada skrin Utama anda"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Untuk mendapatkan maklumat tanpa membuka apl, anda boleh menambahkan widget pada skrin utama anda"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Ketik untuk menukar tetapan widget"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Tukar tetapan widget"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Pemberitahuan"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Sentuh &amp; tahan untuk menggerakkan pintasan."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Ketik dua kali &amp; tahan untuk menggerakkan pintasan atau menggunakan tindakan tersuai."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Tiada ruang di skrin Utama ini"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Tiada ruang di skrin utama ini"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Tiada ruang dalam dulang Kegemaran lagi"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Senarai apl"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Hasil carian"</string>
@@ -109,15 +101,9 @@
     <string name="folder_renamed" msgid="1794088362165669656">"Folder dinamakan semula kepada <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="folder_name_format_exact" msgid="8626242716117004803">"Folder: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> item"</string>
     <string name="folder_name_format_overflow" msgid="4270108890534995199">"Folder: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> atau lebih banyak item"</string>
-<<<<<<< HEAD
-    <string name="wallpaper_button_text" msgid="8404103075899945851">"Kertas dinding"</string>
-    <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"Kertas dinding &amp; gaya"</string>
-    <string name="settings_button_text" msgid="8873672322605444408">"Tetapan laman utama"</string>
-=======
     <string name="wallpaper_button_text" msgid="8404103075899945851">"Hiasan latar"</string>
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"Kertas dinding &amp; gaya"</string>
     <string name="settings_button_text" msgid="8873672322605444408">"Tetapan skrin utama"</string>
->>>>>>> android-13.0.0_r1
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Dilumpuhkan oleh pentadbir anda"</string>
     <string name="allow_rotation_title" msgid="7222049633713050106">"Benarkan putaran skrin utama"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"Apabila telefon diputar"</string>
@@ -182,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Apl kerja dimatikan. Apl kerja anda tidak boleh menghantar pemberitahuan kepada anda, menggunakan bateri anda atau mengakses lokasi anda"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Apl kerja mempunyai lencana dan kelihatan kepada pentadbir IT anda"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Matikan apl kerja"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Hidupkan apl kerja"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Tapis"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Jeda apl kerja"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Hidupkan apl kerja"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Tapis"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Cari telefon anda"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Cari tablet anda"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Gagal: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

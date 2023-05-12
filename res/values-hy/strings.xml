@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Աշխատանքային"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Զրույցներ"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Բոլոր կարևոր տեղեկությունները՝ ձեռքի տակ"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Առանց հավելվածները բացելու տեղեկություններ ստանալու համար ձեր հիմնական էկրանին ավելացրեք վիջեթներ։"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Ավելացրեք վիջեթներ ձեր հիմնական էկրանին, որպեսզի տեղեկություններ ստանաք՝ առանց հավելվածները բացելու։"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Հպեք՝ վիջեթի կարգավորումները փոփոխելու համար"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Եղավ"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Փոխել վիջեթի կարգավորումները"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Ծանուցումներ"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Հպեք և պահեք՝ դյուրանցում տեղափոխելու համար։"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Կրկնակի հպեք և պահեք՝ դյուրանցում տեղափոխելու համար, կամ օգտվեք հատուկ գործողություններից։"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Հիմնական էկրանին ազատ տեղ չկա"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Հիմնական էկրանին ազատ տեղ չկա"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Ընտրյալների ցուցակում այլևս ազատ տեղ չկա"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Հավելվածների ցանկ"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Որոնման արդյունքներ"</string>
@@ -86,19 +78,11 @@
     <string name="dismiss_prediction_label" msgid="3357562989568808658">"Թաքցնել առաջարկը"</string>
     <string name="pin_prediction" msgid="4196423321649756498">"Ամրացնել առաջարկվող հավելվածը"</string>
     <string name="permlab_install_shortcut" msgid="5632423390354674437">"Դյուրանցումների տեղադրում"</string>
-<<<<<<< HEAD
-    <string name="permdesc_install_shortcut" msgid="923466509822011139">"Ծրագրին թույլ է տալիս ավելացնել դյուրանցումներ՝ առանց օգտագործողի միջամտության:"</string>
-    <string name="permlab_read_settings" msgid="1941457408239617576">"կարդալ հիմնաէջի կարգավորումներն ու դյուրանցումները"</string>
-    <string name="permdesc_read_settings" msgid="5833423719057558387">"Ծրագրին թույլ է տալիս կարդալ հիմնաէջի կարգավորումներն ու դյուրանցումները:"</string>
-    <string name="permlab_write_settings" msgid="3574213698004620587">"ստեղծել հիմնաէջի կարգավորումներ ու դյուրանցումներ"</string>
-    <string name="permdesc_write_settings" msgid="5440712911516509985">"Ծրագրին թույլ է տալիս փոփոխել հիմնաէջի կարգավորումներն ու դյուրանցումները:"</string>
-=======
     <string name="permdesc_install_shortcut" msgid="923466509822011139">"Հավելվածին թույլ է տալիս ավելացնել դյուրանցումներ՝ առանց օգտագործողի միջամտության:"</string>
     <string name="permlab_read_settings" msgid="5136500343007704955">"կարդալ հիմնական էկրանի կարգավորումներն ու դյուրանցումները"</string>
     <string name="permdesc_read_settings" msgid="4208061150510996676">"Հավելվածին թույլ է տալիս կարդալ հիմնական էկրանի կարգավորումներն ու դյուրանցումները։"</string>
     <string name="permlab_write_settings" msgid="4820028712156303762">"փոփոխել հիմնական էկրանի կարգավորումներն ու դյուրանցումները"</string>
     <string name="permdesc_write_settings" msgid="726859348127868466">"Հավելվածին թույլ է տալիս փոփոխել հիմնական էկրանի կարգավորումներն ու դյուրանցումները։"</string>
->>>>>>> android-13.0.0_r1
     <string name="msg_no_phone_permission" msgid="9208659281529857371">"<xliff:g id="APP_NAME">%1$s</xliff:g> հավելվածին չի թույլատրվում հեռախոսազանգեր կատարել"</string>
     <string name="gadget_error_text" msgid="740356548025791839">"Չհաջողվեց բեռնել վիջեթը"</string>
     <string name="gadget_setup_text" msgid="8348374825537681407">"Վիջեթի կարգավորումներ"</string>
@@ -184,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Աշխատանքային հավելվածներն անջատված են։ Դրանք չեն կարող ծանուցումներ ուղարկել ձեզ, օգտագործել մարտկոցը և ձեր տեղադրության մասին տվյալներ ստանալ։"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Աշխատանքային հավելվածները հատուկ նշանակ ունեն և տեսանելի են ՏՏ ադմինիստրատորին"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Եղավ"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Անջատել աշխատանքային հավելվածները"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Միացնել աշխատանքային հավելվածները"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Զտեք"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Դադարեցնել աշխատանքային հավելվածները"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Միացնել աշխատանքային հավելվածները"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Զտեք"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Որոնում հեռախոսում"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Որոնում պլանշետում"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Չհաջողվեց կատարել գործողությունը (<xliff:g id="WHAT">%1$s</xliff:g>)"</string>
 </resources>

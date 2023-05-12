@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Umsebenzi"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Izingxoxo"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Ulwazi oluwusizo phambi nje kwakho"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Ukuze utholeulwazi ngaphandle kokuvula ama-app, ungakwazi ukwengeza amawijethi kusikrini sakho sasekhaya"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Ukuze uthole ulwazi ngaphandle kokuvula ama-app, ungakwazi ukwengeza amawijethi kusikrini sakho sasekhaya"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Thepha ukuze ushintshe amasethingi ewijethi"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Ngiyezwa"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Shintsha amasethingi ewijethi"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Izaziso"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Thinta uphinde ubambe ukuze uhambise isinqamuleli."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Thepha kabili uphinde ubambe ukuze uhambise isinqamuleli noma usebenzise izenzo ezingokwezifiso."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Asikho isikhala kulesi sikrini sasekhaya"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Asikho isikhala kulesi sikrini sasekhaya"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Asisekho isikhala kwitreyi lezintandokazi"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Uhlu lwezinhlelo zokusebenza"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Imiphumela yosesho"</string>
@@ -111,11 +103,7 @@
     <string name="folder_name_format_overflow" msgid="4270108890534995199">"Ifolda: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> noma izinto eziningi"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"Izithombe zangemuva"</string>
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"Isithombe sangemuva nesitayela"</string>
-<<<<<<< HEAD
-    <string name="settings_button_text" msgid="8873672322605444408">"Izilungiselelo zasekhaya"</string>
-=======
     <string name="settings_button_text" msgid="8873672322605444408">"Amasethingi asekhaya"</string>
->>>>>>> android-13.0.0_r1
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"Kukhutshazwe umlawuli wakho"</string>
     <string name="allow_rotation_title" msgid="7222049633713050106">"Vumela ukuzungezisa kwesikrini sasekhaya"</string>
     <string name="allow_rotation_desc" msgid="8662546029078692509">"Uma ifoni iphendukiswa"</string>
@@ -180,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Ama-app omsebenzi avaliwe. Ama-app akho omsebenzi awakwazi ukukuthumela izaziso, ukusebenzisa ibhethri lakho, noma ukufinyelela indawo yakho"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Ama-app omsebenzi anebheji futhi ayabonakala kumphathi wakho we-IT"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"Ngiyezwa"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Vala ama-app omsebenzi"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Vula ama-app omsebenzi"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Hlunga"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Misa ama-app omsebenzi"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Vula ama-app omsebenzi"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Hlunga"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Sesha ifoni yakho"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Sesha ithebulethi yakho"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Yehlulekile: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

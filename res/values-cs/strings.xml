@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Práce"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Konverzace"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Užitečné informace na dosah"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Pokud chcete mít informace k dispozici bez otevírání aplikací, můžete si na plochu přidat widgety"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Pokud chcete mít informace k dispozici bez otevírání aplikací, můžete si na plochu přidat widgety"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Klepnutím změníte nastavení widgetu"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"Rozumím"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Změnit nastavení widgetu"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Oznámení"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Klepnutím a podržením přesunete zkratku."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Dvojitým klepnutím a podržením přesunete zkratku, případně použijte vlastní akce."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Na této ploše není místo"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Na této ploše není místo"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Na panelu Oblíbené položky již není místo."</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Seznam aplikací"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Výsledky vyhledávání"</string>
@@ -122,12 +114,8 @@
     <string name="msg_missing_notification_access" msgid="281113995110910548">"Chcete-li zobrazovat puntíky s oznámením, zapněte oznámení z aplikace <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="title_change_settings" msgid="1376365968844349552">"Změnit nastavení"</string>
     <string name="notification_dots_service_title" msgid="4284221181793592871">"Zobrazovat puntíky s oznámením"</string>
-<<<<<<< HEAD
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"Přidávat na plochu ikony aplikací"</string>
-=======
     <string name="developer_options_title" msgid="700788437593726194">"Pro vývojáře"</string>
     <string name="auto_add_shortcuts_label" msgid="4926805029653694105">"Přidávat na plochu ikony aplikací"</string>
->>>>>>> android-13.0.0_r1
     <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"U nových aplikací"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"Neznámé"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"Odstranit"</string>
@@ -173,27 +161,17 @@
     <string name="all_apps_personal_tab" msgid="4190252696685155002">"Osobní"</string>
     <string name="all_apps_work_tab" msgid="4884822796154055118">"Pracovní"</string>
     <string name="work_profile_toggle_label" msgid="3081029915775481146">"Pracovní profil"</string>
-<<<<<<< HEAD
-    <string name="work_profile_edu_work_apps" msgid="7895468576497746520">"Pracovní aplikace jsou označené a viditelné vašemu administrátorovi IT"</string>
-=======
     <string name="work_profile_edu_work_apps" msgid="7895468576497746520">"Pracovní aplikace jsou označené a váš administrátor IT je vidí"</string>
->>>>>>> android-13.0.0_r1
     <string name="work_profile_edu_accept" msgid="6069788082535149071">"Rozumím"</string>
     <string name="work_apps_paused_title" msgid="3040901117349444598">"Pracovní aplikace jsou pozastaveny"</string>
     <string name="work_apps_paused_body" msgid="261634750995824906">"Pracovní aplikace vám nemohou zasílat oznámení, používat vaši baterii ani získat přístup k vaší poloze"</string>
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Pracovní aplikace jsou vypnuté. Nemohou vám zasílat oznámení, používat vaši baterii ani získat přístup k vaší poloze"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Pracovní aplikace jsou označené a viditelné vašemu administrátorovi IT"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Vypnout pracovní aplikace"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Zapnout pracovní aplikace"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtr"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Pozastavit pracovní aplikace"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Zapnout pracovní aplikace"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtr"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Prohledávání telefonu"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Vyhledávat na tabletu"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Selhalo: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

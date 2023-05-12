@@ -65,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"सूचनाहरू"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"कुनै सर्टकट सार्न डबल ट्याप गरेर छोइराख्नुहोस्।"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"कुनै सर्टकट सार्न वा आफ्नो रोजाइका कारबाही प्रयोग गर्न डबल ट्याप गरेर छोइराख्नुहोस्।"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"यो होम स्क्रिनमा ठाउँ छैन"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"यो होम स्क्रिनमा ठाउँ छैन"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"मन पर्ने ट्रे अब कुनै ठाँउ छैन"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"एपको सूची"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"खोज परिणामहरू"</string>
@@ -109,11 +105,7 @@
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"वालपेपर तथा शैली"</string>
     <string name="settings_button_text" msgid="8873672322605444408">"होम पेजका सेटिङहरू"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"तपाईँको प्रशासकद्वारा असक्षम गरिएको"</string>
-<<<<<<< HEAD
-    <string name="allow_rotation_title" msgid="7728578836261442095">"होम स्क्रिन रोटेट हुन दिइयोस्"</string>
-=======
     <string name="allow_rotation_title" msgid="7222049633713050106">"होम स्क्रिन रोटेट हुन दिइयोस्"</string>
->>>>>>> android-13.0.0_r1
     <string name="allow_rotation_desc" msgid="8662546029078692509">"फोनलाई घुमाइँदा"</string>
     <string name="notification_dots_title" msgid="9062440428204120317">"सूचनाको प्रतीक जनाउने थोप्लाहरू"</string>
     <string name="notification_dots_desc_on" msgid="1679848116452218908">"सक्रिय"</string>
@@ -122,12 +114,8 @@
     <string name="msg_missing_notification_access" msgid="281113995110910548">"सूचनाको प्रतीक जनाउने थोप्लाहरू देखाउन <xliff:g id="NAME">%1$s</xliff:g> को एपसम्बन्धी सूचनाहरूलाई अन गर्नुहोस्"</string>
     <string name="title_change_settings" msgid="1376365968844349552">"सेटिङहरू बदल्नुहोस्"</string>
     <string name="notification_dots_service_title" msgid="4284221181793592871">"सूचनाको प्रतीक जनाउने थोप्लाहरू देखाउनुहोस्"</string>
-<<<<<<< HEAD
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"होम स्क्रिनमा एपका आइकन थपियोस्"</string>
-=======
     <string name="developer_options_title" msgid="700788437593726194">"विकासकर्ताका लागि उपलब्ध विकल्पहरू"</string>
     <string name="auto_add_shortcuts_label" msgid="4926805029653694105">"एपका आइकनहरू होम स्क्रिनमा राखियोस्"</string>
->>>>>>> android-13.0.0_r1
     <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"नयाँ एपका लागि"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"अज्ञात"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"हटाउनुहोस्"</string>
@@ -143,11 +131,7 @@
     <string name="dialog_remove" msgid="6510806469849709407">"हटाउनुहोस्"</string>
     <string name="widgets_list" msgid="796804551140113767">"विजेटहरूको सूची"</string>
     <string name="widgets_list_closed" msgid="6141506579418771922">"विजेटहरूको सूची बन्द गरियो"</string>
-<<<<<<< HEAD
-    <string name="action_add_to_workspace" msgid="8902165848117513641">"होम स्क्रिनमा हाल्नुहोस्"</string>
-=======
     <string name="action_add_to_workspace" msgid="215894119683164916">"होम स्क्रिनमा राख्नुहोस्"</string>
->>>>>>> android-13.0.0_r1
     <string name="action_move_here" msgid="2170188780612570250">"वस्तु यहाँ सार्नुहोस्"</string>
     <string name="item_added_to_workspace" msgid="4211073925752213539">"वस्तु गृह स्क्रिनमा थपियो"</string>
     <string name="item_removed" msgid="851119963877842327">"वस्तु हटाइयो"</string>
@@ -184,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"कामसम्बन्धी एपहरू अफ गरिएका छन्। तपाईंका कामसम्बन्धी एपहरूले तपाईंलाई सूचना पठाउन, तपाईंको डिभाइसको ब्याट्री प्रयोग गर्न वा तपाईंको लोकेसन हेर्न सक्दैनन्"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"कामसम्बन्धी एपमा ब्याज अङ्कित हुन्छ र तपाईंका IT एड्मिन ती एप हेर्न सक्नुहुन्छ"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"बुझेँ"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"कामसम्बन्धी एपहरू अफ गर्नुहोस्"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"कामसम्बन्धी एपहरू अन गर्नुहोस्"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"फिल्टर"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"कामसम्बन्धी एपहरू अस्थायी रूपमा रोक्का गर्नुहोस्"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"कामसम्बन्धी एपहरू अन गर्नुहोस्"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"फिल्टर"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"आफ्नो फोन खोज्नुहोस्"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"आफ्नो ट्याब्लेट खोज्नुहोस्"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"कार्य पूरा गर्न सकिएन: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

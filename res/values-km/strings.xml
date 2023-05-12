@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"ការងារ"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"ការសន្ទនា"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"ទទួលបាន​ព័ត៌មានដែលមានប្រយោជន៍​យ៉ាងងាយស្រួល"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"ដើម្បីទទួលបាន​ព័ត៌មាន​ដោយមិនចាំបាច់​បើកកម្មវិធី អ្នកអាចបញ្ចូលធាតុ​ក្រាហ្វិកទៅក្នុង​អេក្រង់ដើម​របស់អ្នក"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"ដើម្បីទទួលបាន​ព័ត៌មាន​ដោយមិនចាំបាច់​បើកកម្មវិធី អ្នកអាចបញ្ចូលធាតុ​ក្រាហ្វិកទៅក្នុង​អេក្រង់ដើម​របស់អ្នក"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"ចុចដើម្បីប្ដូរការកំណត់ធាតុ​ក្រាហ្វិក"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"យល់ហើយ"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"ប្ដូរការកំណត់ធាតុ​ក្រាហ្វិក"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"ការ​ជូនដំណឹង"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"ចុចឱ្យជាប់​ដើម្បីផ្លាស់ទី​ផ្លូវកាត់​។"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"ចុចពីរដង រួចសង្កត់ឱ្យជាប់ ដើម្បីផ្លាស់ទី​ផ្លូវកាត់ ឬប្រើ​សកម្មភាព​តាមបំណង​។"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"គ្មានកន្លែង​នៅលើ​អេក្រង់ដើមនេះទេ"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"គ្មានកន្លែង​នៅលើ​អេក្រង់ដើមនេះទេ"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"គ្មាន​បន្ទប់​​ក្នុង​ថាស​និយម​ប្រើ"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"បញ្ជីកម្មវិធី"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"លទ្ធផលស្វែងរក"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"កម្មវិធីការងារ​ត្រូវបានបិទ។ កម្មវិធីការងារ​របស់អ្នកមិនអាចផ្ញើ​ការជូនដំណឹង​ទៅអ្នក ប្រើប្រាស់ថ្ម​របស់អ្នក ឬ​ចូលប្រើ​ទីតាំង​របស់អ្នក​បានទេ"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"កម្មវិធីការងារ​ត្រូវបានដាក់​គ្រឿងសម្គាល់ ហើយ​អ្នកគ្រប់គ្រង​ផ្នែកព័ត៌មានវិទ្យា​របស់អ្នក​អាចមើលឃើញ"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"យល់ហើយ"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"បិទ​កម្មវិធីការងារ"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"បើក​កម្មវិធី​ការងារ"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"តម្រង"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"ផ្អាក​កម្មវិធី​ការងារ"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"បើក​កម្មវិធី​ការងារ"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"តម្រង"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"ស្វែងរកក្នុងទូរសព្ទរបស់អ្នក"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"ស្វែងរកក្នុង​ថេប្លេតរបស់អ្នក"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"បានបរាជ័យ៖ <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

@@ -65,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"ବିଜ୍ଞପ୍ତି"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"ଏକ ସର୍ଟକଟକୁ ମୁଭ୍ କରିବା ପାଇଁ ସ୍ପର୍ଶ କରି ଧରି ରଖନ୍ତୁ।"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"ଏକ ସର୍ଟକଟକୁ ମୁଭ୍ କରିବା ପାଇଁ ଦୁଇଥର-ଟାପ୍ କରି ଧରି ରଖନ୍ତୁ କିମ୍ବା କଷ୍ଟମ୍ କାର୍ଯ୍ୟଗୁଡ଼ିକୁ ବ୍ୟବହାର କରନ୍ତୁ।"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"ଏହି ମୂଳସ୍କ୍ରିନରେ ଆଉ ଜାଗା ନାହିଁ"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"ଏହି ମୂଳସ୍କ୍ରିନରେ ଆଉ ଜାଗା ନାହିଁ"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"ମନପସନ୍ଦ ଟ୍ରେରେ ଆଉ କୋଠରୀ ନାହିଁ"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"ଆପ୍‌ ତାଲିକା"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"ସନ୍ଧାନ ଫଳାଫଳ"</string>
@@ -106,11 +102,7 @@
     <string name="folder_name_format_exact" msgid="8626242716117004803">"ଫୋଲ୍ଡର୍: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> ଆଇଟମଗୁଡ଼ିକ"</string>
     <string name="folder_name_format_overflow" msgid="4270108890534995199">"ଫୋଲ୍ଡର୍: <xliff:g id="NAME">%1$s</xliff:g>, <xliff:g id="SIZE">%2$d</xliff:g> କିମ୍ବା ଅଧିକ ଆଇଟମ୍"</string>
     <string name="wallpaper_button_text" msgid="8404103075899945851">"ୱାଲପେପର୍‌"</string>
-<<<<<<< HEAD
-    <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"ୱାଲପେପର୍ ଏବଂ ଷ୍ଟାଇଲ୍"</string>
-=======
     <string name="styles_wallpaper_button_text" msgid="8216961355289236794">"ୱାଲପେପର ଏବଂ ଷ୍ଟାଇଲ"</string>
->>>>>>> android-13.0.0_r1
     <string name="settings_button_text" msgid="8873672322605444408">"ହୋମ ସେଟିଂସ"</string>
     <string name="msg_disabled_by_admin" msgid="6898038085516271325">"ଆପଣଙ୍କ ଆଡମିନଙ୍କ ଦ୍ୱାରା ଅକ୍ଷମ କରାଯାଇଛି"</string>
     <string name="allow_rotation_title" msgid="7222049633713050106">"ମୂଳସ୍କ୍ରିନ ରୋଟେସନକୁ ଅନୁମତି ଦିଅନ୍ତୁ"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"ୱାର୍କ ଆପଗୁଡ଼ିକ ବନ୍ଦ ଅଛି। ଆପଣଙ୍କ ୱାର୍କ ଆପଗୁଡ଼ିକ ଆପଣଙ୍କୁ ବିଜ୍ଞପ୍ତି ପଠାଇପାରିବ ନାହିଁ, ଆପଣଙ୍କ ବ୍ୟାଟେରୀକୁ ବ୍ୟବହାର କରିପାରିବ ନାହିଁ କିମ୍ବା ଆପଣଙ୍କର ଲୋକେସନକୁ ଆକ୍ସେସ୍ କରିପାରିବ ନାହିଁ"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"ୱାର୍କ ଆପଗୁଡ଼ିକୁ ବ୍ୟାଜ୍ କରାଯାଇଛି ଏବଂ ଆପଣଙ୍କ IT ଆଡମିନଙ୍କୁ ଦେଖାଯାଉଛି"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"ବୁଝିଗଲି"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"ୱାର୍କ ଆପଗୁଡ଼ିକୁ ବନ୍ଦ କରନ୍ତୁ"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"ୱାର୍କ ଆପଗୁଡ଼ିକୁ ଚାଲୁ କରନ୍ତୁ"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"ଫିଲ୍ଟର୍"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"ୱାର୍କ ଆପଗୁଡ଼ିକୁ ବିରତ କରନ୍ତୁ"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"ୱାର୍କ ଆପଗୁଡ଼ିକୁ ଚାଲୁ କରନ୍ତୁ"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"ଫିଲ୍ଟର୍"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"ଆପଣଙ୍କ ଫୋନରେ ସନ୍ଧାନ କରନ୍ତୁ"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"ଆପଣଙ୍କ ଟାବଲେଟରେ ସନ୍ଧାନ କରନ୍ତୁ"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"ବିଫଳ ହୋଇଛି: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

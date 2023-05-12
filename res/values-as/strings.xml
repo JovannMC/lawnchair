@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"কৰ্মস্থান"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"বাৰ্তালাপ"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"আপোনাৰ আঙুলিৰে টিপতে উপযোগী তথ্য পাওক"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"এপ্‌ নোখোলাকৈ তথ্য পাবলৈ আপুনি নিজৰ গৃহ স্ক্ৰীনত ৱিজেট যোগ দিব পাৰে"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"এপ্ নোখোলাকৈ তথ্য পাবলৈ আপুনি নিজৰ গৃহ স্ক্ৰীনত ৱিজেট যোগ দিব পাৰে"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"ৱিজেটৰ ছেটিং সলনি কৰিবলৈ টিপক"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"বুজি পালোঁ"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"ৱিজেটৰ ছেটিং সলনি কৰক"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"জাননীসমূহ"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"শ্বৰ্টকাট স্থানান্তৰ কৰিবলৈ দুবাৰ টিপি ধৰি ৰাখক।"</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"কোনো শ্বৰ্টকাট স্থানান্তৰ কৰিবলৈ দুবাৰ টিপি ধৰি ৰাখক অথবা কাষ্টম কাৰ্য ব্যৱহাৰ কৰক।"</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"এই গৃহ স্ক্ৰীনত খালী ঠাই নাই"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"এইখন গৃহ স্ক্ৰীনত খালী ঠাই নাই"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"পছন্দৰ ট্ৰে\'ত আৰু বেছি ঠাই নাই"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"এপৰ সূচী"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"সন্ধানৰ ফলাফল"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"কৰ্মস্থানৰ এপ্‌সমূহ অফ হৈ আছে। আপোনাৰ কৰ্মস্থানৰ এপ্‌সমূহে আপোনালৈ জাননী পঠিয়াব, আপোনাৰ বেটাৰী ব্যৱহাৰ কৰিব অথবা আপোনাৰ অৱস্থান এক্সেছ কৰিব নোৱাৰে"</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"কর্মস্থানৰ এপ্‌সমূহ প্ৰতীকেৰে চিহ্নিত কৰা হয় আৰু সেইবোৰ আপোনাৰ আইটি প্ৰশাসকৰ বাবে দৃশ্যমান হয়"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"বুজি পালোঁ"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"কৰ্মস্থানৰ এপ্‌সমূহ অফ কৰক"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"কৰ্মস্থানৰ এপ্‌সমূহ অন কৰক"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"ফিল্টাৰ"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"কৰ্মস্থানৰ এপ্‌ পজ কৰক"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"কৰ্মস্থানৰ এপ্‌সমূহ অন কৰক"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"ফিল্টাৰ"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"আপোনাৰ ফ’নৰ বস্তু সন্ধান কৰক"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"আপোনাৰ টেবলেটৰ বস্তু সন্ধান কৰক"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"বিফল: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

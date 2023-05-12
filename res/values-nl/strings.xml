@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Werk"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Gesprekken"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Nuttige informatie binnen handbereik"</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Als je informatie wilt krijgen zonder apps te openen, kun je widgets toevoegen aan je startscherm"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Als je informatie wilt krijgen zonder apps te openen, kun je widgets toevoegen aan je startscherm"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Tik om de widgetinstellingen te wijzigen"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Widgetinstellingen wijzigen"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Meldingen"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Tik en houd vast om een snelkoppeling te verplaatsen."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Dubbeltik en houd vast om een snelkoppeling te verplaatsen of aangepaste acties te gebruiken."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Er is geen ruimte op dit startscherm"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Er is geen ruimte op dit startscherm"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Geen ruimte meer in het vak \'Favorieten\'"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Lijst met apps"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Zoekresultaten"</string>
@@ -122,12 +114,8 @@
     <string name="msg_missing_notification_access" msgid="281113995110910548">"Als je meldingsstipjes wilt tonen, zet je app-meldingen aan voor <xliff:g id="NAME">%1$s</xliff:g>"</string>
     <string name="title_change_settings" msgid="1376365968844349552">"Instellingen wijzigen"</string>
     <string name="notification_dots_service_title" msgid="4284221181793592871">"Toon meldingsstipjes"</string>
-<<<<<<< HEAD
-    <string name="auto_add_shortcuts_label" msgid="3698776050751790653">"App-iconen toevoegen aan startscherm"</string>
-=======
     <string name="developer_options_title" msgid="700788437593726194">"Ontwikkelaarsopties"</string>
     <string name="auto_add_shortcuts_label" msgid="4926805029653694105">"App-iconen toevoegen aan startscherm"</string>
->>>>>>> android-13.0.0_r1
     <string name="auto_add_shortcuts_description" msgid="7117251166066978730">"Voor nieuwe apps"</string>
     <string name="package_state_unknown" msgid="7592128424511031410">"Onbekend"</string>
     <string name="abandoned_clean_this" msgid="7610119707847920412">"Verwijderen"</string>
@@ -180,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Werk-apps staan uit. Je werk-apps kunnen geen meldingen sturen, je batterij niet gebruiken en hebben geen toegang tot je locatie."</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Werk-apps hebben badges en zijn zichtbaar voor je IT-beheerder"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Werk-apps uitzetten"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Werk-apps aanzetten"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filteren"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Werk-apps pauzeren"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Werk-apps aanzetten"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filteren"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Zoeken op je telefoon"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Zoeken op je tablet"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Mislukt: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>

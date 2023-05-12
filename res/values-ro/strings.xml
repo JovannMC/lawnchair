@@ -52,11 +52,7 @@
     <string name="widgets_full_sheet_work_tab" msgid="3767150027110633765">"Serviciu"</string>
     <string name="widget_category_conversations" msgid="8894438636213590446">"Conversații"</string>
     <string name="widget_education_header" msgid="4874760613775913787">"Informații utile la îndemâna dvs."</string>
-<<<<<<< HEAD
-    <string name="widget_education_content" msgid="745542879510751525">"Pentru a primi informații fără să deschideți aplicațiile, puteți adăuga widgeturi pe ecranul de pornire"</string>
-=======
     <string name="widget_education_content" msgid="1731667670753497052">"Pentru a primi informații fără să deschideți aplicațiile, puteți adăuga widgeturi pe ecranul de pornire"</string>
->>>>>>> android-13.0.0_r1
     <string name="reconfigurable_widget_education_tip" msgid="6336962690888067057">"Atingeți ca să schimbați setările pentru widgeturi"</string>
     <string name="widget_education_close_button" msgid="8676165703104836580">"OK"</string>
     <string name="widget_reconfigure_button_content_description" msgid="8811472721881205250">"Modificați setările pentru widgeturi"</string>
@@ -69,11 +65,7 @@
     <string name="notifications_header" msgid="1404149926117359025">"Notificări"</string>
     <string name="long_press_shortcut_to_add" msgid="5405328730817637737">"Atingeți și țineți apăsat pentru a muta comanda rapidă."</string>
     <string name="long_accessible_way_to_add_shortcut" msgid="2199537273817090740">"Atingeți de două ori și țineți apăsat pentru a muta o comandă rapidă sau folosiți acțiuni personalizate."</string>
-<<<<<<< HEAD
-    <string name="out_of_space" msgid="6692471482459245734">"Nu există spațiu liber pe acest ecran de pornire"</string>
-=======
     <string name="out_of_space" msgid="6455557115204099579">"Nu există spațiu liber pe acest ecran de pornire"</string>
->>>>>>> android-13.0.0_r1
     <string name="hotseat_out_of_space" msgid="7448809638125333693">"Spațiu epuizat în bara Preferate"</string>
     <string name="all_apps_button_label" msgid="8130441508702294465">"Lista de aplicații"</string>
     <string name="all_apps_search_results" msgid="5889367432531296759">"Rezultatele căutării"</string>
@@ -176,16 +168,10 @@
     <string name="work_apps_paused_content_description" msgid="5149623040804051095">"Aplicațiile pentru lucru sunt dezactivate. Acestea nu pot să vă trimită notificări, să folosească bateria sau să vă acceseze locația."</string>
     <string name="work_apps_paused_edu_banner" msgid="8872412121608402058">"Aplicațiile pentru lucru sunt marcate și vizibile pentru administratorul IT"</string>
     <string name="work_apps_paused_edu_accept" msgid="6377476824357318532">"OK"</string>
-<<<<<<< HEAD
-    <string name="work_apps_pause_btn_text" msgid="1921059713673767460">"Dezactivați aplicațiile pentru lucru"</string>
-    <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Activați aplicațiile pentru lucru"</string>
-    <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtru"</string>
-=======
     <string name="work_apps_pause_btn_text" msgid="4669288269140620646">"Întrerupeți aplicațiile pentru lucru"</string>
     <string name="work_apps_enable_btn_text" msgid="1156432622148413741">"Activați aplicațiile pentru lucru"</string>
     <string name="developer_options_filter_hint" msgid="5896817443635989056">"Filtru"</string>
     <string name="search_pref_screen_title" msgid="3258959643336315962">"Căutați pe telefon"</string>
     <string name="search_pref_screen_title_tablet" msgid="5220319680451343959">"Căutați pe tabletă"</string>
->>>>>>> android-13.0.0_r1
     <string name="remote_action_failed" msgid="1383965239183576790">"Eșuare: <xliff:g id="WHAT">%1$s</xliff:g>"</string>
 </resources>
