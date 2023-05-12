@@ -57,7 +57,7 @@ import app.lawnchair.icons.LawnchairIconProvider;
  * Singleton class to load and manage recents model.
  */
 @TargetApi(Build.VERSION_CODES.O)
-public class RecentsModel extends TaskStackChangeListener implements IconChangeListener {
+public class RecentsModel implements IconChangeListener, TaskStackChangeListener {
 
     // We do not need any synchronization for this variable as its only written on UI thread.
     public static final MainThreadInitializedObject<RecentsModel> INSTANCE =
@@ -170,7 +170,7 @@ public class RecentsModel extends TaskStackChangeListener implements IconChangeL
     }
 
     @Override
-    public void onTaskSnapshotChanged(int taskId, ThumbnailData snapshot) {
+    public boolean onTaskSnapshotChanged(int taskId, ThumbnailData snapshot) {
         mThumbnailCache.updateTaskSnapShot(taskId, snapshot);
 
         for (int i = mThumbnailChangeListeners.size() - 1; i >= 0; i--) {
@@ -179,6 +179,7 @@ public class RecentsModel extends TaskStackChangeListener implements IconChangeL
                 task.thumbnail = snapshot;
             }
         }
+        return true;
     }
 
     @Override

@@ -25,6 +25,7 @@ import android.os.UserHandle;
 
 import com.android.launcher3.LauncherAppState;
 import com.android.launcher3.R;
+import com.android.launcher3.icons.BaseIconFactory.IconOptions;
 import com.android.launcher3.icons.cache.CachingLogic;
 import com.android.launcher3.util.ResourceBasedOverride;
 
@@ -62,7 +63,7 @@ public class LauncherActivityCachingLogic
         try (LauncherIcons li = LauncherIcons.obtain(context)) {
             return li.createBadgedIconBitmap(LauncherAppState.getInstance(context)
                             .getIconProvider().getIcon(object, li.mFillResIconDpi),
-                    object.getUser(), object.getApplicationInfo().targetSdkVersion);
+                    new IconOptions().setUser(object.getUser()));
         }
     }
 }

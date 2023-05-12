@@ -622,7 +622,13 @@ public class LoaderTask implements Runnable {
                             }
 
                             if (info != null) {
-                                iconRequestInfos.add(c.createIconRequestInfo(info, useLowResIcon));
+                                if (info.itemType
+                                        != LauncherSettings.Favorites.ITEM_TYPE_DEEP_SHORTCUT) {
+                                    // Skip deep shortcuts; their title and icons have already been
+                                    // loaded above.
+                                    iconRequestInfos.add(
+                                            c.createIconRequestInfo(info, useLowResIcon));
+                                }
 
                                 c.applyCommonProperties(info);
 
@@ -863,6 +869,9 @@ public class LoaderTask implements Runnable {
 
             // Load delegate items
             mModelDelegate.loadItems(mUserManagerState, shortcutKeyToPinnedShortcuts);
+
+            // Load string cache
+            mModelDelegate.loadStringCache(mBgDataModel.stringCache);
 
             // Break early if we've stopped loading
             if (mStopped) {

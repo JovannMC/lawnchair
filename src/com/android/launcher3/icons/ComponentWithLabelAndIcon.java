@@ -23,6 +23,7 @@ import android.graphics.drawable.Drawable;
 import androidx.annotation.NonNull;
 
 import com.android.launcher3.LauncherAppState;
+import com.android.launcher3.icons.BaseIconFactory.IconOptions;
 
 /**
  * Extension of ComponentWithLabel to also support loading icons
@@ -49,7 +50,7 @@ public interface ComponentWithLabelAndIcon extends ComponentWithLabel {
                 return super.loadIcon(context, object);
             }
             try (LauncherIcons li = LauncherIcons.obtain(context)) {
-                return li.createBadgedIconBitmap(d, object.getUser(), 0);
+                return li.createBadgedIconBitmap(d, new IconOptions().setUser(object.getUser()));
             }
         }
     }

@@ -23,6 +23,7 @@ import static com.android.launcher3.states.StateAnimationConfig.SKIP_DEPTH_CONTR
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ObjectAnimator;
+import android.app.WallpaperManager;
 import android.os.IBinder;
 import android.os.SystemProperties;
 import android.util.FloatProperty;
@@ -62,6 +63,7 @@ import java.util.function.Consumer;
 public class DepthController implements StateHandler<LauncherState>,
         BaseActivity.MultiWindowModeChangedListener {
 
+    private static final boolean OVERLAY_SCROLL_ENABLED = false;
     public static final FloatProperty<DepthController> DEPTH =
             new FloatProperty<DepthController>("depth") {
                 @Override
@@ -136,7 +138,7 @@ public class DepthController implements StateHandler<LauncherState>,
      */
     private int mMaxBlurRadius;
     private boolean mCrossWindowBlursEnabled;
-    private WallpaperManagerCompat mWallpaperManager;
+    private WallpaperManager mWallpaperManager;
     private SurfaceControl mSurface;
     /**
      * How visible the -1 overlay is, from 0 to 1.
@@ -184,7 +186,7 @@ public class DepthController implements StateHandler<LauncherState>,
     private void ensureDependencies() {
         if (mWallpaperManager == null) {
             mMaxBlurRadius = mLauncher.getResources().getInteger(R.integer.max_depth_blur_radius);
-            mWallpaperManager = new WallpaperManagerCompat(mLauncher);
+            mWallpaperManager = mLauncher.getSystemService(WallpaperManager.class);
         }
 
         if (Utilities.ATLEAST_R && mLauncher.getRootView() != null && mOnAttachListener == null) {
@@ -330,6 +332,10 @@ public class DepthController implements StateHandler<LauncherState>,
 
     public void onOverlayScrollChanged(float progress) {
         if (!Utilities.ATLEAST_R) return;
+        if (!OVERLAY_SCROLL_ENABLED) {
+            return;
+        }
+
         // Round out the progress to dedupe frequent, non-perceptable updates
         int progressI = (int) (progress * 256);
         float progressF = Utilities.boundToRange(progressI / 256f, 0f, 1f);

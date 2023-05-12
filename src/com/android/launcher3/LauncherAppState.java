@@ -18,6 +18,8 @@
 
 package com.android.launcher3;
 
+import static android.app.admin.DevicePolicyManager.ACTION_DEVICE_POLICY_RESOURCE_UPDATED;
+
 import static com.android.launcher3.Utilities.getDevicePrefs;
 import static com.android.launcher3.config.FeatureFlags.ENABLE_THEMED_ICONS;
 import static com.android.launcher3.util.Executors.MODEL_EXECUTOR;
@@ -38,6 +40,7 @@ import com.android.launcher3.config.FeatureFlags;
 import com.android.launcher3.graphics.IconShape;
 import com.android.launcher3.icons.IconCache;
 import com.android.launcher3.icons.IconProvider;
+import com.android.launcher3.icons.LauncherIconProvider;
 import com.android.launcher3.icons.LauncherIcons;
 import com.android.launcher3.notification.NotificationListener;
 import com.android.launcher3.pm.InstallSessionHelper;
@@ -73,7 +76,7 @@ public class LauncherAppState implements SafeCloseable {
     private Launcher mLauncher;
     private final Context mContext;
     private final LauncherModel mModel;
-    private final IconProvider mIconProvider;
+    private final LauncherIconProvider mIconProvider;
     private final IconCache mIconCache;
     private final InvariantDeviceProfile mInvariantDeviceProfile;
     private final RunnableList mOnTerminateCallback = new RunnableList();
@@ -108,9 +111,10 @@ public class LauncherAppState implements SafeCloseable {
         modelChangeReceiver.register(mContext, Intent.ACTION_LOCALE_CHANGED,
                 Intent.ACTION_MANAGED_PROFILE_AVAILABLE,
                 Intent.ACTION_MANAGED_PROFILE_UNAVAILABLE,
-                Intent.ACTION_MANAGED_PROFILE_UNLOCKED);
+                Intent.ACTION_MANAGED_PROFILE_UNLOCKED,
+                ACTION_DEVICE_POLICY_RESOURCE_UPDATED);
         if (FeatureFlags.IS_STUDIO_BUILD) {
-            modelChangeReceiver.register(mContext, ACTION_FORCE_ROLOAD);
+            modelChangeReceiver.register(mContext, Context.RECEIVER_EXPORTED, ACTION_FORCE_ROLOAD);
         }
         mOnTerminateCallback.add(() -> mContext.unregisterReceiver(modelChangeReceiver));
 

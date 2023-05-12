@@ -146,7 +146,10 @@ public class ClearAllButton extends Button {
         }
         applyPrimaryTranslation();
         applySecondaryTranslation();
-        mScrollAlpha = 1 - shift / orientationSize;
+        float clearAllSpacing =
+                recentsView.getPageSpacing() + recentsView.getClearAllExtraPageSpacing();
+        clearAllSpacing = mIsRtl ? -clearAllSpacing : clearAllSpacing;
+        mScrollAlpha = Math.max((clearAllScroll + clearAllSpacing - scroll) / clearAllSpacing, 0);
         updateAlpha();
     }
 
@@ -252,7 +255,7 @@ public class ClearAllButton extends Button {
      */
     private float getOriginalTranslationY() {
         DeviceProfile deviceProfile = mActivity.getDeviceProfile();
-        return deviceProfile.overviewShowAsGrid
+        return deviceProfile.isTablet
                 ? deviceProfile.overviewRowSpacing
                 : deviceProfile.overviewTaskThumbnailTopMarginPx / 2.0f;
     }

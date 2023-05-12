@@ -16,16 +16,18 @@
 package com.android.quickstep;
 
 import android.annotation.TargetApi;
+import android.app.ActivityManager;
 import android.content.Context;
 import android.content.pm.PackageManager;
 import android.os.Build;
+import android.os.RemoteException;
 import android.os.UserManager;
 import android.util.Log;
+import android.view.ThreadedRenderer;
 
 import com.android.launcher3.BuildConfig;
 import com.android.launcher3.MainProcessInitializer;
 import com.android.systemui.shared.system.InteractionJankMonitorWrapper;
-import com.android.systemui.shared.system.ThreadedRendererCompat;
 
 @SuppressWarnings("unused")
 @TargetApi(Build.VERSION_CODES.R)

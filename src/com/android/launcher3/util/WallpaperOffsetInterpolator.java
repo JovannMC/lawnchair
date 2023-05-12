@@ -14,7 +14,7 @@ import android.os.SystemClock;
 import android.util.Log;
 import android.view.animation.Interpolator;
 
-import app.lawnchair.preferences.PreferenceManager;
+import androidx.annotation.AnyThread;
 
 import com.android.launcher3.Utilities;
 import com.android.launcher3.Workspace;
@@ -32,7 +32,7 @@ public class WallpaperOffsetInterpolator extends BroadcastReceiver {
     // Don't use all the wallpaper for parallax until you have at least this many pages
     private static final int MIN_PARALLAX_PAGE_SPAN = 4;
 
-    private final Workspace mWorkspace;
+    private final Workspace<?> mWorkspace;
     private final boolean mIsRtl;
     private final Handler mHandler;
 
@@ -43,9 +43,7 @@ public class WallpaperOffsetInterpolator extends BroadcastReceiver {
     private boolean mLockedToDefaultPage;
     private int mNumScreens;
 
-    private PreferenceManager prefs;
-
-    public WallpaperOffsetInterpolator(Workspace workspace) {
+    public WallpaperOffsetInterpolator(Workspace<?> workspace) {
         mWorkspace = workspace;
         mIsRtl = Utilities.isRtl(workspace.getResources());
         mHandler = new OffsetHandler(workspace.getContext());
@@ -187,6 +185,7 @@ public class WallpaperOffsetInterpolator extends BroadcastReceiver {
         }
     }
 
+    @AnyThread
     private void updateOffset() {
         Message.obtain(mHandler, MSG_SET_NUM_PARALLAX, getNumPagesForWallpaperParallax(), 0,
                 mWindowToken).sendToTarget();
@@ -211,9 +210,12 @@ public class WallpaperOffsetInterpolator extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        mWallpaperIsLiveWallpaper =
-                WallpaperManager.getInstance(mWorkspace.getContext()).getWallpaperInfo() != null;
-        updateOffset();
+        UI_HELPER_EXECUTOR.execute(() -> {
+            // Updating the boolean on a background thread is fine as the assignments are atomic
+            mWallpaperIsLiveWallpaper =
+                    WallpaperManager.getInstance(context).getWallpaperInfo() != null;
+            updateOffset();
+        });
     }
 
     private static final int MSG_START_ANIMATION = 1;

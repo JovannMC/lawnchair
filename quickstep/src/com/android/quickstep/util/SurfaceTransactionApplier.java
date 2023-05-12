@@ -54,6 +54,7 @@ public class SurfaceTransactionApplier extends ReleaseCheck {
         mTargetViewRootImpl = targetView.getViewRootImpl();
         mBarrierSurfaceControl = mTargetViewRootImpl.getSurfaceControl();
         mApplyHandler = new Handler(this::onApplyMessage);
+        setCanRelease(true);
     }
 
     protected boolean onApplyMessage(Message msg) {
@@ -74,6 +75,13 @@ public class SurfaceTransactionApplier extends ReleaseCheck {
         View view = mTargetViewRootImpl.getView();
         if (view == null) {
             return;
+        }
+        Transaction t = new Transaction();
+        for (int i = params.length - 1; i >= 0; i--) {
+            SurfaceParams surfaceParams = params[i];
+            if (surfaceParams.surface.isValid()) {
+                surfaceParams.applyTo(t);
+            }
         }
 
         mLastSequenceNumber++;
