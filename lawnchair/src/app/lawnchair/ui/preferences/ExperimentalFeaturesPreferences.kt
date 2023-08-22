@@ -22,6 +22,10 @@ fun ExperimentalFeaturesPreferences() {
     PreferenceLayout(label = stringResource(id = R.string.experimental_features_label)) {
         PreferenceGroup {
             SwitchPreference(
+                adapter = prefs2.showExperimentalInSettings.getAdapter(),
+                label = stringResource(id = R.string.show_experimental_in_settings),
+            )
+            SwitchPreference(
                 adapter = prefs2.enableFontSelection.getAdapter(),
                 label = stringResource(id = R.string.font_picker_label),
                 description = stringResource(id = R.string.font_picker_description),

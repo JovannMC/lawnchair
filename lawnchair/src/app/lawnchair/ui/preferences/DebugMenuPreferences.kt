@@ -33,6 +33,10 @@ fun DebugMenuPreferences() {
     val fontFlags = remember { prefs.fontFlags }
     val context = LocalContext.current
     PreferenceLayout(label = "Debug Menu") {
+        SwitchPreference(
+            adapter = prefs2.showDebugInSettings.getAdapter(),
+            label = "Show Debug option in Settings page",
+        )
         PreferenceGroup {
             ClickablePreference(
                 label = "Feature Flags",

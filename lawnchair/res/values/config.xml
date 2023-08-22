@@ -107,6 +107,8 @@
     <bool name="config_default_show_component_names">false</bool>
     <bool name="config_default_smartspace_show_date">true</bool>
     <bool name="config_default_smartspace_show_time">false</bool>
+    <bool name="config_default_show_experimental_option_in_settings">false</bool>
+    <bool name="config_default_show_debug_option_in_settings">false</bool>
 
     <item name="config_default_home_icon_size_factor" type="dimen" format="float">1.0</item>
     <item name="config_default_folder_preview_background_opacity" type="dimen" format="float">1.0</item>

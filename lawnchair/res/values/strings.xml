@@ -39,6 +39,10 @@
     <string name="gestures_description">Taps and Swipes</string>
     <string name="quickstep_label">Recents</string>
     <string name="quickstep_description">Clear All Button, Corner Radius</string>
+    <string name="experimental_features_label">Experimental</string>
+    <string name="experimental_features_description">Font Customization, Transparent Themed Icons</string>
+    <string name="debug_menu_label">Debug</string>
+    <string name="debug_menu_description">Feature Flags, Show Component Name</string>
     <string name="about_label">About</string>
     <!-- <string name="version" /> (unknown source) -->
 
@@ -49,6 +53,7 @@
 
     <!-- ExperimentalFeaturesPreferences -->
     <!-- <string name="experimental_features_label" />-->
+    <string name="show_experimental_option_in_settings">Show Experimental option in Settings page</string>
     <string name="font_picker_label">Font Customization</string>
     <string name="font_picker_description">Some text remains unchanged.</string>
     <string name="smartspace_calendar_label">At a Glance Calendar Customization</string>

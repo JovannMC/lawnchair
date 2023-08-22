@@ -33,6 +33,7 @@ import app.lawnchair.LawnchairLauncher
 import app.lawnchair.backup.ui.restoreBackupOpener
 import app.lawnchair.preferences.observeAsState
 import app.lawnchair.preferences.preferenceManager
+import app.lawnchair.preferences2.preferenceManager2
 import app.lawnchair.ui.OverflowMenu
 import app.lawnchair.ui.preferences.components.ClickableIcon
 import app.lawnchair.ui.preferences.components.PreferenceCategory
@@ -116,6 +117,24 @@ fun PreferencesDashboard() {
                 description = stringResource(id = R.string.quickstep_description),
                 iconResource = R.drawable.ic_quickstep,
                 route = Routes.QUICKSTEP
+            )
+        }
+
+        if (preferenceManager2().showExperimentalInSettings.observeAsState()) {
+            PreferenceCategory(
+                label = stringResource(id = R.string.experimental_features_label),
+                description = stringResource(id = R.string.experimental_features_description),
+                iconResource = R.drawable.ic_quickstep,
+                route = Routes.EXPERIMENTAL_FEATURES
+            )
+        }
+
+        if (preferenceManager2().showDebugInSettings.observeAsState()) {
+            PreferenceCategory(
+                label = stringResource(id = R.string.debug_menu_label),
+                description = stringResource(id = R.string.debug_menu_description),
+                iconResource = R.drawable.ic_quickstep,
+                route = Routes.DEBUG_MENU
             )
         }
 
