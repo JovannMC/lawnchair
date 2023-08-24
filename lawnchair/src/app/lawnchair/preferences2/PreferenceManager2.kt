@@ -320,13 +320,13 @@ class PreferenceManager2 private constructor(private val context: Context) : Pre
         onSet = { reloadHelper.recreate() },
     )
 
-    val showExperimentalInSettings = serializablePreference<GestureHandlerConfig>(
-        key = stringPreferencesKey("show_experimental_in_settings"),
+    val showExperimentalInSettings = preference(
+        key = booleanPreferencesKey("show_experimental_in_settings"),
         defaultValue = context.resources.getBoolean(R.bool.config_default_show_experimental_option_in_settings),
     )
 
-    val showDebugInSettings = serializablePreference<GestureHandlerConfig>(
-        key = stringPreferencesKey("show_debug_in_settings"),
+    val showDebugInSettings = preference(
+        key = booleanPreferencesKey("show_debug_in_settings"),
         defaultValue = context.resources.getBoolean(R.bool.config_default_show_debug_option_in_settings),
     )
 

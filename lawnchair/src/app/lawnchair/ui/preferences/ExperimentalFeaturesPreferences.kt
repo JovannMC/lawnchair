@@ -23,7 +23,7 @@ fun ExperimentalFeaturesPreferences() {
         PreferenceGroup {
             SwitchPreference(
                 adapter = prefs2.showExperimentalInSettings.getAdapter(),
-                label = stringResource(id = R.string.show_experimental_in_settings),
+                label = stringResource(id = R.string.show_experimental_option_in_settings),
             )
             SwitchPreference(
                 adapter = prefs2.enableFontSelection.getAdapter(),

@@ -31,6 +31,7 @@ import androidx.core.content.getSystemService
 import app.lawnchair.LawnchairApp
 import app.lawnchair.LawnchairLauncher
 import app.lawnchair.backup.ui.restoreBackupOpener
+import app.lawnchair.preferences.getAdapter
 import app.lawnchair.preferences.observeAsState
 import app.lawnchair.preferences.preferenceManager
 import app.lawnchair.preferences2.preferenceManager2
@@ -120,20 +121,20 @@ fun PreferencesDashboard() {
             )
         }
 
-        if (preferenceManager2().showExperimentalInSettings.observeAsState()) {
+        if (preferenceManager2().showExperimentalInSettings.getAdapter().state.value) {
             PreferenceCategory(
-                label = stringResource(id = R.string.experimental_features_label),
-                description = stringResource(id = R.string.experimental_features_description),
-                iconResource = R.drawable.ic_quickstep,
+                label = stringResource(id = R.string.experimental_menu_label),
+                description = stringResource(id = R.string.experimental_menu_description),
+                iconResource = R.drawable.ic_code,
                 route = Routes.EXPERIMENTAL_FEATURES
             )
         }
 
-        if (preferenceManager2().showDebugInSettings.observeAsState()) {
+        if (preferenceManager2().showDebugInSettings.getAdapter().state.value) {
             PreferenceCategory(
                 label = stringResource(id = R.string.debug_menu_label),
                 description = stringResource(id = R.string.debug_menu_description),
-                iconResource = R.drawable.ic_quickstep,
+                iconResource = R.drawable.ic_debug,
                 route = Routes.DEBUG_MENU
             )
         }
