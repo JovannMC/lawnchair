@@ -6,6 +6,7 @@
 [![Telegram](https://img.shields.io/endpoint?url=https%3A%2F%2Ftg.sumanjay.workers.dev%2Flccommunity)](https://t.me/lccommunity)
 [![Discord](https://img.shields.io/discord/803299970169700402?label=server&logo=discord)](https://discord.gg/3x8qNWxgGZ)
 
+> [!NOTE]
 > **This repository is currently in maintenance mode**. Our main developers currently do not have the time to contibute to the project, so only dependency updates and minor optimizations will be commited.
 >
 > *This doesn't mean that the project is dead.* It simply means that Lawnchair’s development is stalled.
