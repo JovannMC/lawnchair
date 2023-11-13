@@ -108,3 +108,6 @@
 -keep class com.android.** {
   *;
 }
+
+# Keep Smartspacer's client SDK
+-keep class com.kieronquinn.app.smartspacer.sdk.**  { *; }
