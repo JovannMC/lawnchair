@@ -346,8 +346,9 @@ public class InvariantDeviceProfile {
 
         horizontalMargin = displayOption.horizontalMargin;
 
-        numShownHotseatIcons = dbGridInfo.getNumHotseatColumns();
-        numDatabaseHotseatIcons = dbGridInfo.getNumHotseatColumns();
+            numShownHotseatIcons = numSearchContainerColumns;
+            numDatabaseHotseatIcons = deviceType == TYPE_MULTI_DISPLAY
+                    ? closestProfile.numDatabaseHotseatIcons : numShownHotseatIcons;
 
         numAllAppsColumns = closestProfile.numAllAppsColumns;
         numDatabaseAllAppsColumns = deviceType == TYPE_MULTI_DISPLAY
