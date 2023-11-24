@@ -1,18 +1,14 @@
--keep,allowshrinking,allowoptimization class com.android.launcher3.** {
-  *;
-}
+# The rules from AOSP are located in proguard.flags file, we can just maintain Lawnchair related rules here.
 
--keep class com.android.launcher3.graphics.ShadowDrawable {
-  public <init>(...);
-}
+# Optimization options.
+-allowaccessmodification
+-dontoptimize
+-dontpreverify
+-dontusemixedcaseclassnames
+-dontskipnonpubliclibraryclasses
+-verbose
+-keepattributes InnerClasses, *Annotation*, Signature, SourceFile, LineNumberTable
 
-# The support library contains references to newer platform versions.
-# Don't warn about those in case this app is linking against an older
-# platform version.  We know about them, and they are safe.
--dontwarn android.support.**
--keep class ** extends android.app.Fragment {
-    public <init>(...);
-}
 
 ## Prevent obfuscating various overridable objects
 -keep class ** implements com.android.launcher3.util.ResourceBasedOverride {
@@ -81,22 +77,33 @@
 -dontwarn org.conscrypt.**
 -dontwarn org.bouncycastle.**
 -dontwarn org.openjsse.**
+# This is generated automatically by the Android Gradle plugin.
+-dontwarn android.appwidget.AppWidgetHost$AppWidgetHostListener
+-dontwarn android.util.StatsEvent$Builder
+-dontwarn android.util.StatsEvent
+-dontwarn androidx.window.extensions.**
+-dontwarn androidx.window.sidecar.**
+-dontwarn com.android.org.conscrypt.TrustManagerImpl
+-dontwarn com.android.wm.shell.**
+-dontwarn com.skydoves.balloon.**
+-dontwarn dalvik.system.CloseGuard
+-dontwarn lineageos.providers.LineageSettings$System
 
-# Preserve Protobuf generated code
--keep class com.android.launcher3.tracing.nano.LauncherTraceFileProto$* { *; }
--keep class com.android.launcher3.logger.nano.LauncherAtom$* { *; }
--keep class com.android.launcher3.tracing.nano.LauncherTraceEntryProto$* { *; }
--keep class com.android.launcher3.tracing.nano.TouchInteractionServiceProto$* { *; }
--keep class com.android.launcher3.userevent.nano.LauncherLogProto$* { *; }
--keep class com.android.launcher3.tracing.nano.LauncherTraceProto$* { *; }
--keep class com.android.launcher3.userevent.nano.LauncherLogExtensions$* { *; }
--keep class com.android.launcher3.tracing.LauncherTraceFileProto$* { *; }
--keep class com.android.launcher3.logger.LauncherAtom$* { *; }
--keep class com.android.launcher3.tracing.LauncherTraceEntryProto$* { *; }
--keep class com.android.launcher3.tracing.TouchInteractionServiceProto$* { *; }
--keep class com.android.launcher3.userevent.LauncherLogProto$* { *; }
--keep class com.android.launcher3.tracing.LauncherTraceProto$* { *; }
--keep class com.android.launcher3.userevent.LauncherLogExtensions$* { *; }
+
+# Common rules.
+-keep class com.android.** { *; }
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+-keepclassmembers enum * {
+    public static **[] values();
+    public static ** valueOf(java.lang.String);
+}
+-keepclassmembers class * implements android.os.Parcelable {
+  public static final ** CREATOR;
+}
+
+# Lawnchair specific rules.
 -keep class app.lawnchair.LawnchairProto$* { *; }
 -keep class com.google.protobuf.Timestamp { *; }
 -keepattributes InnerClasses
@@ -111,3 +118,11 @@
 
 # Keep Smartspacer's client SDK
 -keep class com.kieronquinn.app.smartspacer.sdk.**  { *; }
+-keep class app.lawnchair.LawnchairApp { *; }
+-keep class app.lawnchair.LawnchairLauncher { *; }
+-keep class app.lawnchair.compatlib.** { *; }
+-keep class com.google.protobuf.Timestamp { *; }
+# TODO: Remove this after the change in https://github.com/ChickenHook/RestrictionBypass/pull/9 has been released.
+-keep class org.chickenhook.restrictionbypass.** { *; }
+# TODO: Remove this after the change in https://github.com/KieronQuinn/Smartspacer/pull/58 has been released.
+-keep class com.kieronquinn.app.smartspacer.sdk.** { *; }
