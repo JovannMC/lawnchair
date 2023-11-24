@@ -222,10 +222,10 @@ public class OptionsPopupView extends ArrowPopup<Launcher>
         int resDrawable = showStyleWallpapers ?
                 R.drawable.ic_palette : R.drawable.ic_wallpaper;
         options.add(new OptionItem(launcher,
-                resString,
-                resDrawable,
-                IGNORE,
-                OptionsPopupView::startWallpaperPicker));
+                R.string.settings_button_text,
+                R.drawable.ic_home_screen,
+                LAUNCHER_SETTINGS_BUTTON_TAP_OR_LONGPRESS,
+                OptionsPopupView::startSettings));
         return options;
     }
 
