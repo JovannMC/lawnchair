@@ -7,7 +7,8 @@ import app.lawnchair.views.CustomTextView
 import com.android.launcher3.views.DoubleShadowBubbleTextView.ShadowInfo
 
 open class DoubleShadowTextView @JvmOverloads constructor(
-    context: Context, attrs: AttributeSet? = null
+    context: Context,
+    attrs: AttributeSet? = null,
 ) : CustomTextView(context, attrs) {
 
     private val shadowInfo = ShadowInfo(context, attrs, 0)
