@@ -53,7 +53,9 @@ import app.lawnchair.theme.ThemeProvider
 import app.lawnchair.ui.popup.LawnchairShortcut
 import app.lawnchair.util.getThemedIconPacksInstalled
 import app.lawnchair.util.unsafeLazy
+import com.android.launcher3.AbstractFloatingView
 import com.android.launcher3.BaseActivity
+import com.android.launcher3.GestureNavContract
 import com.android.launcher3.LauncherAppState
 import com.android.launcher3.LauncherRootView
 import com.android.launcher3.LauncherState
@@ -67,6 +69,8 @@ import com.android.launcher3.uioverrides.states.OverviewState
 import com.android.launcher3.util.SystemUiController.UI_STATE_BASE_WINDOW
 import com.android.launcher3.util.Themes
 import com.android.launcher3.util.TouchController
+import com.android.launcher3.views.FloatingSurfaceView
+import com.android.launcher3.widget.LauncherWidgetHolder
 import com.android.launcher3.widget.RoundedCornerEnforcement
 import com.android.systemui.plugins.shared.LauncherOverlayManager
 import com.android.systemui.shared.system.QuickStepContract
@@ -278,9 +282,34 @@ class LawnchairLauncher : QuickstepLauncher(), LifecycleOwner,
         gestureController.onHomePressed()
     }
 
-    override fun shouldBackButtonBeHidden(toState: LauncherState): Boolean {
-        if (toState == LauncherState.NORMAL && hasBackGesture) {
-            return false
+    override fun registerBackDispatcher() {
+        if (LawnchairApp.isAtleastT) {
+            super.registerBackDispatcher()
+        }
+    }
+
+    override fun handleGestureContract(intent: Intent?) {
+        if (!LawnchairApp.isRecentsEnabled) {
+            val gnc = GestureNavContract.fromIntent(intent)
+            if (gnc != null) {
+                AbstractFloatingView.closeOpenViews(
+                    this,
+                    false,
+                    AbstractFloatingView.TYPE_ICON_SURFACE,
+                )
+                FloatingSurfaceView.show(this, gnc)
+            }
+        }
+    }
+
+    override fun createAppWidgetHolder(): LauncherWidgetHolder {
+        val factory = LauncherWidgetHolder.HolderFactory.newFactory(this) as LawnchairWidgetHolder.LawnchairHolderFactory
+        return factory.newInstance(
+            this,
+        ) { appWidgetId: Int ->
+            workspace.removeWidget(
+                appWidgetId,
+            )
         }
         return super.shouldBackButtonBeHidden(toState)
     }
