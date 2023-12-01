@@ -45,10 +45,14 @@ import com.android.launcher3.model.data.ItemInfoWithIcon;
 import com.android.launcher3.model.data.WorkspaceItemInfo;
 import com.android.launcher3.touch.ItemClickHandler;
 import com.android.launcher3.touch.ItemLongClickListener;
+import com.android.launcher3.views.ActivityContext;
+import com.patrykmichalik.opto.core.PreferenceExtensionsKt;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
+
+import app.lawnchair.preferences2.PreferenceManager2;
 
 @TargetApi(Build.VERSION_CODES.P)
 public class PredictionRowView extends LinearLayout implements
@@ -70,6 +74,8 @@ public class PredictionRowView extends LinearLayout implements
 
     @Nullable
     private List<ItemInfo> mPendingPredictedItems;
+
+    private final PreferenceManager2 prefs2 = PreferenceManager2.getInstance(getContext());
 
     public PredictionRowView(@NonNull Context context) {
         this(context, null);
@@ -96,10 +102,11 @@ public class PredictionRowView extends LinearLayout implements
     }
 
     private void updateVisibility() {
-        setVisibility(mPredictionsEnabled ? VISIBLE : GONE);
-        if (mLauncher.getAppsView() != null) {
-            if (mPredictionsEnabled) {
-                mLauncher.getAppsView().getAppsStore().registerIconContainer(this);
+        boolean enabled = mPredictionsEnabled && PreferenceExtensionsKt.firstBlocking(prefs2.getShowSuggestedAppsInDrawer());
+        setVisibility(enabled ? VISIBLE : GONE);
+        if (mActivityContext.getAppsView() != null) {
+            if (enabled) {
+                mActivityContext.getAppsView().getAppsStore().registerIconContainer(this);
             } else {
                 mLauncher.getAppsView().getAppsStore().unregisterIconContainer(this);
             }
