@@ -179,6 +179,14 @@ public class DepthController implements StateHandler<LauncherState>,
         // https://cs.android.com/android/platform/superproject/+/master:packages/apps/Launcher3/quickstep/src/com/android/launcher3/uioverrides/QuickstepLauncher.java;drc=eef0b1640bbc8c26c824836271a71b929726e895;l=175
         Preference<Boolean, Boolean, ?> depthPref = PreferenceManager2.getInstance(LawnchairApp.getInstance()).getWallpaperDepthEffect();
         mEnableDepth = PreferenceExtensionsKt.firstBlocking(depthPref);
+        
+    private void onLauncherDraw() {
+        View view = mLauncher.getDragLayer();
+        ViewRootImpl viewRootImpl = view.getViewRootImpl();
+        if (Utilities.ATLEAST_Q) {
+            setSurface(viewRootImpl != null ? viewRootImpl.getSurfaceControl() : null);
+        }
+        view.post(() -> view.getViewTreeObserver().removeOnDrawListener(mOnDrawListener));
     }
 
     private void ensureDependencies() {

@@ -40,6 +40,7 @@ object ColorTokens {
 
     val Accent3_50 = SwatchColorToken(Swatch.Accent3, Shade.S50)
     val Accent3_100 = SwatchColorToken(Swatch.Accent3, Shade.S100)
+    val Accent3_200 = SwatchColorToken(Swatch.Accent3, Shade.S200)
 
     val SurfaceLight = Neutral1_500.setLStar(98.0)
     val SurfaceDark = Neutral1_800
@@ -70,6 +71,9 @@ object ColorTokens {
     @JvmField val SearchboxHighlight = DayNightColorToken(SurfaceVariantLight, Neutral1_800)
 
     @JvmField val FolderDotColor = Accent3_100
+
+    @JvmField val DotColor = Accent3_200
+
     @JvmField val FolderBackgroundColor = DayNightColorToken(Neutral1_50.setLStar(98.0), Neutral2_50.setLStar(30.0))
     @JvmField val FolderIconBorderColor = ColorPrimary
     @JvmField val FolderPaginationColor = DayNightColorToken(Accent1_600, Accent2_100)

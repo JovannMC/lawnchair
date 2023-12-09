@@ -67,6 +67,7 @@ import android.widget.Toast;
 
 import androidx.annotation.Nullable;
 
+import com.android.launcher3.Utilities;
 import com.android.launcher3.accessibility.AccessibleDragListenerAdapter;
 import com.android.launcher3.accessibility.WorkspaceAccessibilityHelper;
 import com.android.launcher3.anim.Interpolators;
@@ -367,6 +368,34 @@ public class Workspace extends PagedView<WorkspacePageIndicator>
             mWorkspaceScreens.get(mScreenOrder.get(i))
                     .setPadding(paddingLeft, 0, paddingRight, paddingBottom);
         }
+    }
+
+    private void setPageIndicatorInset() {
+        DeviceProfile grid = mLauncher.getDeviceProfile();
+
+        FrameLayout.LayoutParams lp = (FrameLayout.LayoutParams) mPageIndicator.getLayoutParams();
+
+        // Set insets for page indicator
+        Rect padding = grid.workspacePadding;
+        if (grid.isVerticalBarLayout()) {
+            lp.leftMargin = padding.left + grid.workspaceCellPaddingXPx;
+            lp.rightMargin = padding.right + grid.workspaceCellPaddingXPx;
+            lp.bottomMargin = padding.bottom;
+        } else {
+            lp.leftMargin = lp.rightMargin = 0;
+            lp.gravity = Gravity.CENTER_HORIZONTAL | Gravity.BOTTOM;
+            boolean isDisabledHotseat = Utilities.ATLEAST_Q &&
+                    getHotseat() != null &&
+                    getHotseat().getQsb().getSourceLayoutResId() == R.layout.empty_view;
+            lp.bottomMargin = (padding.bottom) + grid.hotseatBarBottomSpacePx - (isDisabledHotseat ? grid.workspaceCellPaddingXPx * 3 : 0);
+        }
+        mPageIndicator.setLayoutParams(lp);
+    }
+
+    private void updateCellLayoutPadding() {
+        Rect padding = mLauncher.getDeviceProfile().cellLayoutPaddingPx;
+        mWorkspaceScreens.forEach(
+                s -> s.setPadding(padding.left, padding.top, padding.right, padding.bottom));
     }
 
     private void updateWorkspaceWidgetsSizes() {

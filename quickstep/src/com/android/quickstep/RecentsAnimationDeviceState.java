@@ -165,16 +165,22 @@ public class RecentsAnimationDeviceState implements
         }
         runOnDestroy(() -> Utilities.unregisterReceiverSafely(mContext, mUserUnlockedReceiver));
 
-        // Register for exclusion updates
-        mExclusionListener = new SystemGestureExclusionListenerCompat(mDisplayId) {
-            @Override
-            @BinderThread
-            public void onExclusionChanged(Region region) {
-                // Assignments are atomic, it should be safe on binder thread
-                mExclusionRegion = region;
-            }
-        };
-        runOnDestroy(mExclusionListener::unregister);
+        if (Utilities.ATLEAST_Q) {
+            // Register for exclusion updates
+            mExclusionListener = new SystemGestureExclusionListenerCompat(mDisplayId) {
+                @Override
+                @BinderThread
+                public void onExclusionChanged(Region region) {
+                    if (region == null) {
+                        // Don't think this is possible but just in case, don't let it be null.
+                        region = new Region();
+                    }
+                    // Assignments are atomic, it should be safe on binder thread
+                    mExclusionRegion = region;
+                }
+            };
+            runOnDestroy(mExclusionListener::unregister);
+        }
 
         // Register for navigation mode changes
         onNavigationModeChanged(mSysUiNavMode.addModeChangeListener(this));
@@ -241,9 +247,11 @@ public class RecentsAnimationDeviceState implements
                 mPipIsActive = false;
             }
         };
-        TaskStackChangeListeners.getInstance().registerTaskStackListener(mPipListener);
-        runOnDestroy(() ->
-                TaskStackChangeListeners.getInstance().unregisterTaskStackListener(mPipListener));
+        if (Utilities.ATLEAST_Q) {
+            TaskStackChangeListeners.getInstance().registerTaskStackListener(mPipListener);
+            runOnDestroy(() ->
+                    TaskStackChangeListeners.getInstance().unregisterTaskStackListener(mPipListener));
+        }
     }
 
     private void runOnDestroy(Runnable action) {
@@ -297,6 +305,14 @@ public class RecentsAnimationDeviceState implements
     public void onDisplayInfoChanged(Context context, Info info, int flags) {
         if ((flags & CHANGE_ROTATION) != 0) {
             mNavBarPosition = new NavBarPosition(mMode, info);
+
+            if (mExclusionListener == null) return;
+
+            if (mMode == NO_BUTTON) {
+                mExclusionListener.register();
+            } else {
+                mExclusionListener.unregister();
+            }
         }
     }
 
