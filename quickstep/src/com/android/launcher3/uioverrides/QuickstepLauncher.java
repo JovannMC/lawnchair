@@ -667,7 +667,10 @@ public class QuickstepLauncher extends Launcher {
         getOnBackInvokedDispatcher().registerOnBackInvokedCallback(
                 OnBackInvokedDispatcher.PRIORITY_DEFAULT,
                 new OnBackAnimationCallback() {
-                    @Nullable OnBackPressedHandler mActiveOnBackPressedHandler;
+
+                    @Nullable
+                    OnBackPressedHandler mActiveOnBackPressedHandler;
+
                     @Override
                     public void onBackStarted(@NonNull BackEvent backEvent) {
                         if (mActiveOnBackPressedHandler != null) {
@@ -676,9 +679,11 @@ public class QuickstepLauncher extends Launcher {
                         mActiveOnBackPressedHandler = getOnBackPressedHandler();
                         mActiveOnBackPressedHandler.onBackStarted();
                     }
+
                     @Override
                     public void onBackInvoked() {
-                        // Recreate mActiveOnBackPressedHandler if necessary to avoid NPE because:
+                        // Recreate mActiveOnBackPressedHandler if necessary to avoid NPE
+                        // because:
                         // 1. b/260636433: In 3-button-navigation mode, onBackStarted() is not
                         // called on ACTION_DOWN before onBackInvoked() is called in ACTION_UP.
                         // 2. Launcher#onBackPressed() will call onBackInvoked() without calling
@@ -692,15 +697,16 @@ public class QuickstepLauncher extends Launcher {
                     }
                     @Override
                     public void onBackProgressed(@NonNull BackEvent backEvent) {
-                        if (!FeatureFlags.IS_STUDIO_BUILD && mActiveOnBackPressedHandler == null) {
+                        if (!FeatureFlags.IS_STUDIO_BUILD
+                                && mActiveOnBackPressedHandler == null) {
                             return;
                         }
-                        mActiveOnBackPressedHandler
-                                .onBackProgressed(backEvent.getProgress());
+                        mActiveOnBackPressedHandler.onBackProgressed(backEvent.getProgress());
                     }
                     @Override
                     public void onBackCancelled() {
-                        if (!FeatureFlags.IS_STUDIO_BUILD && mActiveOnBackPressedHandler == null) {
+                        if (!FeatureFlags.IS_STUDIO_BUILD
+                                && mActiveOnBackPressedHandler == null) {
                             return;
                         }
                         mActiveOnBackPressedHandler.onBackCancelled();
