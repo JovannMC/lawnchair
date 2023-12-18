@@ -109,6 +109,7 @@ import java.util.Set;
 import java.util.concurrent.CancellationException;
 
 import app.lawnchair.LawnchairAppKt;
+import app.lawnchair.preferences.PreferenceManager;
 
 /**
  * Runnable for the thread that loads the contents of the launcher:
@@ -949,6 +950,9 @@ public class LoaderTask implements Runnable {
         // Clear the list of apps
         mBgAllAppsList.clear();
 
+        var pref = PreferenceManager.getInstance(mApp.getContext());
+        var enableBulkLoading = pref.getAllAppBulkIconLoading().get();
+
         List<IconRequestInfo<AppInfo>> iconRequestInfos = new ArrayList<>();
         for (UserHandle user : profiles) {
             // Query for the set of apps
@@ -967,7 +971,7 @@ public class LoaderTask implements Runnable {
                 iconRequestInfos.add(new IconRequestInfo<>(
                         appInfo, app, /* useLowResIcon= */ false));
                 mBgAllAppsList.add(
-                        appInfo, app, !FeatureFlags.ENABLE_BULK_ALL_APPS_ICON_LOADING.get());
+                        appInfo, app, !enableBulkLoading);
             }
             allActivityList.addAll(apps);
         }
@@ -980,7 +984,7 @@ public class LoaderTask implements Runnable {
                 AppInfo promiseAppInfo = mBgAllAppsList.addPromiseApp(
                         mApp.getContext(),
                         PackageInstallInfo.fromInstallingState(info),
-                        !FeatureFlags.ENABLE_BULK_ALL_APPS_ICON_LOADING.get());
+                        !enableBulkLoading);
 
                 if (promiseAppInfo != null) {
                     iconRequestInfos.add(new IconRequestInfo<>(
@@ -991,12 +995,11 @@ public class LoaderTask implements Runnable {
             }
         }
 
-        if (FeatureFlags.ENABLE_BULK_ALL_APPS_ICON_LOADING.get()) {
+        if (enableBulkLoading) {
             Trace.beginSection("LoadAllAppsIconsInBulk");
             try {
                 mIconCache.getTitlesAndIconsInBulk(iconRequestInfos);
-                iconRequestInfos.forEach(iconRequestInfo ->
-                        mBgAllAppsList.updateSectionName(iconRequestInfo.itemInfo));
+                iconRequestInfos.forEach(iconRequestInfo -> mBgAllAppsList.updateSectionName(iconRequestInfo.itemInfo));
             } finally {
                 Trace.endSection();
             }
