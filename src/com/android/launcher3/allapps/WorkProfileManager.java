@@ -171,7 +171,8 @@ public class WorkProfileManager implements PersonalWorkSlidingTabStrip.OnActiveP
                     + "mWorkModeSwitch: " + mWorkModeSwitch);
         }
         if (!mAllApps.getAppsStore().hasModelFlag(
-                FLAG_HAS_SHORTCUT_PERMISSION | FLAG_QUIET_MODE_CHANGE_PERMISSION)) {
+                FLAG_HAS_SHORTCUT_PERMISSION | FLAG_QUIET_MODE_CHANGE_PERMISSION)
+            || !Utilities.ATLEAST_Q) {
             Log.e(TAG, "unable to attach work mode switch; Missing required permissions");
             return false;
         }
