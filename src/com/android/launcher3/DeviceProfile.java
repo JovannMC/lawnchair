@@ -285,6 +285,8 @@ public class DeviceProfile {
 
     private final DeviceProfileOverrides.TextFactors mTextFactors;
 
+    private final PreferenceManager2 preferenceManager2;
+
     /** TODO: Once we fully migrate to staged split, remove "isMultiWindowMode" */
     DeviceProfile(Context context, InvariantDeviceProfile inv, Info info, WindowBounds windowBounds,
                   SparseArray<DotRenderer> dotRendererCache, boolean isMultiWindowMode,
@@ -295,7 +297,8 @@ public class DeviceProfile {
         mTextFactors = DeviceProfileOverrides.INSTANCE.get(context).getTextFactors();
 
         PreferenceManager2 preferenceManager2 = PreferenceManager2.INSTANCE.get(context);
-        allAppsCellHeightMultiplier = PreferenceExtensionsKt.firstBlocking(preferenceManager2.getDrawerCellHeightFactor());
+        allAppsCellHeightMultiplier = PreferenceExtensionsKt
+                .firstBlocking(preferenceManager2.getDrawerCellHeightFactor());
 
         this.inv = inv;
         this.isLandscape = windowBounds.isLandscape();
@@ -694,8 +697,11 @@ public class DeviceProfile {
 
     /** Updates hotseatCellHeightPx and hotseatBarSizePx */
     private void updateHotseatSizes(int hotseatIconSizePx) {
-        // Ensure there is enough space for folder icons, which have a slightly larger radius.
-        hotseatCellHeightPx = (int) Math.ceil(hotseatIconSizePx * ICON_OVERLAP_FACTOR);
+        // Ensure there is enough space for folder icons, which have a slightly larger
+        // radius.
+        hotseatCellHeightPx = getIconSizeWithOverlap(hotseatIconSizePx);
+
+        var space = Math.abs(hotseatCellHeightPx / 2);
 
         if (isVerticalBarLayout()) {
             hotseatBarSizePx = hotseatIconSizePx + hotseatBarSidePaddingStartPx
@@ -708,6 +714,10 @@ public class DeviceProfile {
                     + hotseatQsbSpace
                     + hotseatQsbVisualHeight
                     + hotseatBarBottomSpacePx;
+        }
+        var isHotseatEnabled = PreferenceExtensionsKt.firstBlocking(preferenceManager2.isHotseatEnabled());
+        if (!isHotseatEnabled) {
+            hotseatBarSizePx = 0;
         }
     }
 
