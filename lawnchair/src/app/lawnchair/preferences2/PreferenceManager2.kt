@@ -446,6 +446,16 @@ class PreferenceManager2 private constructor(private val context: Context) : Pre
         save = { it.toString() },
     )
 
+    val smartspaceBatteryLowPriority = preference(
+        key = intPreferencesKey(name = "smartspace_battery"),
+        defaultValue = 15,
+    )
+
+    val smartspacePrioritiseLowBattery = preference(
+        key = booleanPreferencesKey(name = "smartspace_prioritise_low_battery"),
+        defaultValue = true,
+    )
+
     val wallpaperDepthEffect = preference(
         key = booleanPreferencesKey(name = "enable_wallpaper_depth_effect"),
         defaultValue = true,

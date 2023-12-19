@@ -38,6 +38,7 @@ import app.lawnchair.smartspace.model.Smartspacer
 import app.lawnchair.smartspace.provider.SmartspaceProvider
 import app.lawnchair.ui.preferences.components.controls.ListPreference
 import app.lawnchair.ui.preferences.components.controls.ListPreferenceEntry
+import app.lawnchair.ui.preferences.components.controls.SliderPreference
 import app.lawnchair.ui.preferences.components.controls.SwitchPreference
 import app.lawnchair.ui.preferences.components.layout.DividerColumn
 import app.lawnchair.ui.preferences.components.layout.ExpandAndShrink
@@ -113,6 +114,7 @@ fun SmartspacePreferences(
                             }
                     }
                     SmartspaceDateAndTimePreferences()
+                    SmartspaceBatteryStatusPreference()
                 }
             }
         }
@@ -250,6 +252,27 @@ fun SmartspaceCalendarPreference() {
         adapter = adapter,
         entries = entries.toPersistentList(),
         label = stringResource(id = R.string.smartspace_calendar),
+    )
+}
+
+@Composable
+fun SmartspaceBatteryStatusPreference() {
+    val preferenceManager2 = preferenceManager2()
+
+    val smartspaceBatteryLowPriority = preferenceManager2.smartspaceBatteryLowPriority.getAdapter()
+    val smartspacePrioritiseLowBattery = preferenceManager2.smartspacePrioritiseLowBattery.getAdapter()
+
+    SwitchPreference(
+        label = stringResource(id = R.string.smartspace_battery_status_prioritise_low),
+        adapter = smartspacePrioritiseLowBattery,
+    )
+
+    SliderPreference(
+        label = stringResource(id = R.string.smartspace_battery_status_percentage),
+        adapter = smartspaceBatteryLowPriority,
+        step = 5,
+        valueRange = 1..100,
+        showAsPercentage = true,
     )
 }
 

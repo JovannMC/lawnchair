@@ -269,6 +269,9 @@
     <string name="event_provider_missing_notification_dots">To use <xliff:g example="My Provider" id="providerName">%1$s</xliff:g>, enable Notification Dots.</string>
     <string name="smartspace_media_info_separator">" — "</string>
 
+    <string name="smartspace_battery_status_percentage">Low battery percentage</string>
+    <string name="smartspace_battery_status_prioritise_low">Prioritise low battery percentage</string>
+
     <string name="smartspace_calendar_gregorian">Gregorian</string>
     <string name="smartspace_calendar_persian">Persian</string>
 
