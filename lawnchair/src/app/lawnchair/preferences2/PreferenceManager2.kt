@@ -451,8 +451,8 @@ class PreferenceManager2 private constructor(private val context: Context) : Pre
         defaultValue = 15,
     )
 
-    val smartspacePrioritiseLowBattery = preference(
-        key = booleanPreferencesKey(name = "smartspace_prioritise_low_battery"),
+    val smartspacePrioritizeLowBattery = preference(
+        key = booleanPreferencesKey(name = "smartspace_prioritize_low_battery"),
         defaultValue = true,
     )
 

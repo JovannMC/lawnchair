@@ -260,10 +260,10 @@ fun SmartspaceBatteryStatusPreference() {
     val preferenceManager2 = preferenceManager2()
 
     val smartspaceBatteryLowPriority = preferenceManager2.smartspaceBatteryLowPriority.getAdapter()
-    val smartspacePrioritiseLowBattery = preferenceManager2.smartspacePrioritiseLowBattery.getAdapter()
+    val smartspacePrioritiseLowBattery = preferenceManager2.smartspacePrioritizeLowBattery.getAdapter()
 
     SwitchPreference(
-        label = stringResource(id = R.string.smartspace_battery_status_prioritise_low),
+        label = stringResource(id = R.string.smartspace_battery_status_prioritize_low),
         adapter = smartspacePrioritiseLowBattery,
     )
 

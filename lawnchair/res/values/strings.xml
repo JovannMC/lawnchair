@@ -270,7 +270,7 @@
     <string name="smartspace_media_info_separator">" — "</string>
 
     <string name="smartspace_battery_status_percentage">Low battery percentage</string>
-    <string name="smartspace_battery_status_prioritise_low">Prioritise low battery percentage</string>
+    <string name="smartspace_battery_status_prioritize_low">Prioritize low battery percentage</string>
 
     <string name="smartspace_calendar_gregorian">Gregorian</string>
     <string name="smartspace_calendar_persian">Persian</string>
