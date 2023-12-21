@@ -699,7 +699,7 @@ public class DeviceProfile {
     private void updateHotseatSizes(int hotseatIconSizePx) {
         // Ensure there is enough space for folder icons, which have a slightly larger
         // radius.
-        hotseatCellHeightPx = getIconSizeWithOverlap(hotseatIconSizePx);
+        hotseatCellHeightPx = (int) Math.ceil(hotseatIconSizePx * ICON_OVERLAP_FACTOR);
 
         var space = Math.abs(hotseatCellHeightPx / 2);
 
