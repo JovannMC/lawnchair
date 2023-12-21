@@ -296,7 +296,7 @@ public class DeviceProfile {
 
         mTextFactors = DeviceProfileOverrides.INSTANCE.get(context).getTextFactors();
 
-        PreferenceManager2 preferenceManager2 = PreferenceManager2.INSTANCE.get(context);
+        preferenceManager2 = PreferenceManager2.INSTANCE.get(context);
         allAppsCellHeightMultiplier = PreferenceExtensionsKt
                 .firstBlocking(preferenceManager2.getDrawerCellHeightFactor());
 
