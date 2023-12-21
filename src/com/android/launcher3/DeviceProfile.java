@@ -493,7 +493,7 @@ public class DeviceProfile {
         numShownAllAppsColumns =
                 isTwoPanels ? inv.numDatabaseAllAppsColumns : inv.numAllAppsColumns;
 
-        int hotseatBarBottomSpace = isQsbEnable ? 0 : pxFromDp(inv.hotseatBarBottomSpace[mTypeIndex], mMetrics);
+        int hotseatBarBottomSpace = !isQsbEnable ? 0 : pxFromDp(inv.hotseatBarBottomSpace[mTypeIndex], mMetrics);
         int minQsbMargin = res.getDimensionPixelSize(R.dimen.min_qsb_margin);
         hotseatQsbSpace = pxFromDp(inv.hotseatQsbSpace[mTypeIndex], mMetrics);
         // Have a little space between the inset and the QSB
@@ -705,15 +705,16 @@ public class DeviceProfile {
 
         if (isVerticalBarLayout()) {
             hotseatBarSizePx = hotseatIconSizePx + hotseatBarSidePaddingStartPx
-                    + hotseatBarSidePaddingEndPx;
+                    + hotseatBarSidePaddingEndPx + space;
         } else if (isQsbInline) {
             hotseatBarSizePx = Math.max(hotseatIconSizePx, hotseatQsbVisualHeight)
-                    + hotseatBarBottomSpacePx ;
+                    + hotseatBarBottomSpacePx + space;
         } else {
             hotseatBarSizePx = hotseatIconSizePx
                     + hotseatQsbSpace
                     + hotseatQsbVisualHeight
-                    + hotseatBarBottomSpacePx;
+                    + hotseatBarBottomSpacePx
+                    + space;
         }
         var isHotseatEnabled = PreferenceExtensionsKt.firstBlocking(preferenceManager2.isHotseatEnabled());
         if (!isHotseatEnabled) {
@@ -1071,9 +1072,8 @@ public class DeviceProfile {
      */
     private int calculateHotseatBorderSpace(float hotseatWidthPx, int numExtraBorder) {
         float hotseatIconsTotalPx = iconSizePx * numShownHotseatIcons;
-        int hotseatBorderSpacePx =
-                (int) (hotseatWidthPx - hotseatIconsTotalPx)
-                        / (numShownHotseatIcons - 1 + numExtraBorder);
+        int hotseatBorderSpacePx =  (int) (hotseatWidthPx - hotseatIconsTotalPx)
+                / (numShownHotseatIcons - 1 + numExtraBorder);
         return Math.min(hotseatBorderSpacePx, mMaxHotseatIconSpacePx);
     }
 
