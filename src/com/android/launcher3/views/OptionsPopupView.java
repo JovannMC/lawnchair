@@ -152,7 +152,7 @@ public class OptionsPopupView extends ArrowPopup<Launcher>
     public void assignMarginsAndBackgrounds(ViewGroup viewGroup) {
         if (ENABLE_MATERIAL_U_POPUP.get()) {
             assignMarginsAndBackgrounds(viewGroup,
-                    getColorStateList(getContext(), mColors[0]).getDefaultColor());
+                mColors[0]);
         } else {
             assignMarginsAndBackgrounds(viewGroup, Color.TRANSPARENT);
         }
