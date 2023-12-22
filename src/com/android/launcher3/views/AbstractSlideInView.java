@@ -39,7 +39,6 @@ import android.view.ViewGroup;
 import android.view.animation.Interpolator;
 
 import androidx.annotation.FloatRange;
-import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.annotation.Px;
 
@@ -182,9 +181,11 @@ public abstract class AbstractSlideInView<T extends Context & ActivityContext>
     }
 
     @Override
-    public void onBackProgressed(float backProgress) {
-        float deceleratedProgress = Interpolators.PREDICTIVE_BACK_DECELERATED_EASE.getInterpolation(backProgress);
-        mIsBackProgressing = backProgress > 0f;
+    public void onBackProgressed(@FloatRange(from = 0.0, to = 1.0) float progress) {
+        super.onBackProgressed(progress);
+        float deceleratedProgress =
+                Interpolators.PREDICTIVE_BACK_DECELERATED_EASE.getInterpolation(progress);
+        mIsBackProgressing = progress > 0f;
         mSlideInViewScale.updateValue(PREDICTIVE_BACK_MIN_SCALE
                 + (1 - PREDICTIVE_BACK_MIN_SCALE) * (1 - deceleratedProgress));
     }

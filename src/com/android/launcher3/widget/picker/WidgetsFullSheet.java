@@ -384,10 +384,9 @@ public class WidgetsFullSheet extends BaseWidgetSheet
     }
 
     @Override
-    @RequiresApi(Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
-    public void onBackProgressed(float backProgress) {
-        super.onBackProgressed(backProgress);
-        mFastScroller.setVisibility(backProgress > 0 ? View.INVISIBLE : View.VISIBLE);
+    public void onBackProgressed(@FloatRange(from = 0.0, to = 1.0) float progress) {
+        super.onBackProgressed(progress);
+        mFastScroller.setVisibility(progress > 0 ? View.INVISIBLE : View.VISIBLE);
     }
 
     private void attachScrollbarToRecyclerView(WidgetsRecyclerView recyclerView) {

@@ -105,43 +105,12 @@ public class TaskbarAllAppsSlideInView extends AbstractSlideInView<TaskbarOverla
     protected void onAttachedToWindow() {
         super.onAttachedToWindow();
         mActivityContext.addOnDeviceProfileChangeListener(this);
-        // TODO LAWNCHAIR
-        if (FeatureFlags.ENABLE_BACK_SWIPE_LAUNCHER_ANIMATION.get()) {
-            mAppsView.getAppsRecyclerViewContainer().setOutlineProvider(mViewOutlineProvider);
-            mAppsView.getAppsRecyclerViewContainer().setClipToOutline(true);
-            OnBackInvokedDispatcher dispatcher = findOnBackInvokedDispatcher();
-            if (dispatcher != null) {
-                dispatcher.registerOnBackInvokedCallback(
-                        OnBackInvokedDispatcher.PRIORITY_DEFAULT, null);
-            }
-        }
     }
 
     @Override
     protected void onDetachedFromWindow() {
         super.onDetachedFromWindow();
         mActivityContext.removeOnDeviceProfileChangeListener(this);
-        if (FeatureFlags.ENABLE_BACK_SWIPE_LAUNCHER_ANIMATION.get()) {
-            mAppsView.getAppsRecyclerViewContainer().setOutlineProvider(null);
-            mAppsView.getAppsRecyclerViewContainer().setClipToOutline(false);
-            OnBackInvokedDispatcher dispatcher = findOnBackInvokedDispatcher();
-            if (dispatcher != null) {
-                dispatcher.unregisterOnBackInvokedCallback(null);
-            }
-        }
-    }
-
-    @Override
-    protected void dispatchDraw(Canvas canvas) {
-        mAppsView.drawOnScrimWithScale(canvas, mSlideInViewScale.value);
-        super.dispatchDraw(canvas);
-    }
-
-    @Override
-    protected void onScaleProgressChanged() {
-        super.onScaleProgressChanged();
-        mAppsView.setClipChildren(!mIsBackProgressing);
-        mAppsView.getAppsRecyclerViewContainer().setClipChildren(!mIsBackProgressing);
     }
 
     @Override
