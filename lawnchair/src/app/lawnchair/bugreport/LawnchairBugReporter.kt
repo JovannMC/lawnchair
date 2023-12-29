@@ -95,6 +95,11 @@ class LawnchairBugReporter(private val context: Context) {
 
         private fun writeContents() = StringBuilder()
             .appendLine("version: ${BuildConfig.VERSION_NAME} (${BuildConfig.VERSION_CODE})")
+            .appendLine("##############################################################################")
+            .appendLine("This Lawnchair fork is from validcube/Lawnchair @ 13-dev branch")
+            .appendLine("This fork **MUST NOT** be used to report bug issues for the official Lawnchair")
+            .appendLine("The existence was intended for personal needs only")
+            .appendLine("##############################################################################")
             .appendLine("commit: ${BuildConfig.COMMIT_HASH}")
             .appendLine("build.brand: ${Build.BRAND}")
             .appendLine("build.device: ${Build.DEVICE}")
