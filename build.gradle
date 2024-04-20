@@ -33,6 +33,10 @@ allprojects {
                 abortOnError true
                 checkReleaseBuilds false
             }
+            // TODO(nullcube): Implementing & Testing & Finishing Per-app language perferences based on https://developer.android.com/guide/topics/resources/app-languages#auto-localeconfig
+            androidResources {
+                generateLocaleConfig = true
+            }
         }
         dependencies {
             implementation 'androidx.core:core-ktx:1.13.0'
