@@ -33,9 +33,6 @@ allprojects {
                 abortOnError true
                 checkReleaseBuilds false
             }
-            androidResources {
-                generateLocaleConfig true
-            }
         }
         dependencies {
             implementation 'androidx.core:core-ktx:1.13.0'
@@ -155,6 +152,10 @@ android {
             def channel = variant.productFlavors.last().name
             outputFileName = "Lawnchair ${variant.versionName} $channel ${variant.buildType.name}.apk"
         }
+    }
+
+    androidResources {
+        generateLocaleConfig true
     }
 
     buildFeatures {
